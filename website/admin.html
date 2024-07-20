@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="public/assets/SFKT_transparent.png" type="image/gif" sizes="100%" border-radius="50%">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="public/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="public/assets/css/style.css">
+    <link rel="stylesheet" href="public/assets/css/admin.css">
+    <title>Admin</title>
+</head>
+
+
+<body ng-app="myAdmin" ng-controller="myAdminCtrl">
+    <div class="wrapper">
+        <aside id="sidebar">
+            <div class="d-flex">
+                <button class="toggle-btn" type="button">
+                    <i class="fa-solid fa-rectangle-list"></i>
+                </button>
+                <div class="sidebar-logo">
+                    <a href="#">SFKTshop</a>
+                </div>
+            </div>
+            <ul class="sidebar-nav">
+                <li class="sidebar-item">
+                    <a href="#!addcategory" class="sidebar-link">
+                        <i class="fa-solid fa-table-cells"></i>
+                        <span>Categories</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#!addproduct" class="sidebar-link">
+                        <i class="fa-brands fa-product-hunt"></i>
+                        <span>Product</span>
+                    </a>
+                </li>
+
+                <li class="sidebar-item">
+                    <a href="#!adminorder" class="sidebar-link">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span>Orders</span>
+                    </a>
+                </li>
+
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-users"></i>
+                        <span>User</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-comments"></i>
+                        <span>Comment</span>
+                    </a>
+                </li>
+
+                <li class="sidebar-item">
+                    <a href="#!admincontact" class="sidebar-link">
+                        <i class="fa-solid fa-message"></i>
+                        <span>Contacts</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link">
+                        <i class="fa-solid fa-gear"></i>
+                        <span>Setting</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="sidebar-footer">
+                <a href="#" class="sidebar-link">
+                    <i class="lni lni-exit"></i>
+                    <span>Logout</span>
+                </a>
+            </div>
+
+
+        </aside>
+
+
+        <div class="main" ng-view>
+
+
+        </div>
+</body>
+<script src="https://kit.fontawesome.com/84236ec286.js" crossorigin="anonymous"></script>
+<script src="public/bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+
+<script src="public/javascript/angular.min.js"></script>
+<script src="public/javascript/angular-route.js"></script>
+<script src="admin.js"></script>
+<script src="controller/myAdminCtrl.js"></script>
+<script src="controller/addProductCtrl.js"></script>
+<script src="controller/updateProductCtrl.js"></script>
+<script src="controller/updateCategory.js"></script>
+<script src="controller/addCategoryCtrl.js"></script>
+<script src="controller/adminOrderCtrl.js"></script>
+<script src="controller/updateOrderCtrl.js"></script>
+<script src="controller/adminContactCtrl.js"></script>
+<script src="public/assets/javascript/script.js"></script>
+</body>

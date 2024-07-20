@@ -1,0 +1,950 @@
+{
+  "products": [
+    {
+      "name": "Air Jordan 1 Mid",
+      "price": "3600",
+      "category_id": "1",
+      "quantity": "0",
+      "sale": "10",
+      "description": "Impressive with a new color scheme inspired by teal feathers, the Converse Chuck 70s Teal Universe stands out with an impressive blue tone. The color tone represents openness, clarity and creativity, bringing a gentle feeling. The high and low neck design and comfortable interior structure will make you satisfied with this item.",
+      "image_1": "https://images.unsplash.com/photo-1602231379593-b85a472e3c99?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image_2": "https://images.unsplash.com/photo-1521093470119-a3acdc43374a?q=80&w=1651&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image_3": "https://images.unsplash.com/photo-1552066345-f180c686dc9f?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "id": 1
+    },
+    {
+      "name": "Nike Air Max Plus",
+      "price": "5700",
+      "category_id": "1",
+      "quantity": "11",
+      "sale": "12",
+      "description": "The radiance lives on in the Nike Air Force 1 '07, the b-ball icon that puts a fresh spin on what you know best: crisp leather, bold colours and the perfect amount of flash to make you shine. A subtle platform gives you just the right amount of height.",
+      "image_1": "https://images.unsplash.com/photo-1603036050780-467917370518?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image_2": "https://images.unsplash.com/photo-1603036050855-0d77c10e1eb2?q=80&w=2402&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image_3": "https://images.unsplash.com/photo-1603036050141-c61fde866f5c?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "id": 3
+    },
+    {
+      "name": "Chuck Taylor All Star 1970s - A05589C",
+      "price": "1800",
+      "category_id": "1",
+      "quantity": "50",
+      "sale": "12",
+      "description": "The radiance lives on in the Nike Air Force 1 '07, the b-ball icon that puts a fresh spin on what you know best: crisp leather, bold colours and the perfect amount of flash to make you shine. A subtle platform gives you just the right amount of height.",
+      "image_1": "https://images.unsplash.com/photo-1576664839181-e08ac3624a6d?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNvbnZlcnNlfGVufDB8fDB8fHww",
+      "image_2": "https://images.unsplash.com/photo-1601131831144-5d096d7a832c?q=80&w=2564&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image_3": "https://images.unsplash.com/photo-1626707695986-751d8776f39e?q=80&w=2572&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "id": 4
+    },
+    {
+      "name": "Chuck Taylor All Star 1970s - A05585C",
+      "price": "1700",
+      "category_id": "1",
+      "quantity": "20",
+      "sale": "24",
+      "description": "Impressive with a new color scheme inspired by teal feathers, the Converse Chuck 70s Teal Universe stands out with an impressive blue tone. The color tone represents openness, clarity and creativity, bringing a gentle feeling. The high and low neck design and comfortable interior structure will make you satisfied with this item.",
+      "image_1": "https://images.unsplash.com/photo-1650320079970-b4ee8f0dae33?q=80&w=2572&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image_2": "https://images.unsplash.com/photo-1676379827583-4c57b80bc58e?q=80&w=2304&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image_3": "https://images.unsplash.com/photo-1586268150522-f6235b308a04?q=80&w=2535&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "id": 5
+    },
+    {
+      "name": "ADIDAS RACER TR23 SHOES",
+      "price": "180",
+      "category_id": "1",
+      "quantity": "100",
+      "sale": "0",
+      "description": "Sleek, sporty and seriously comfy. Teaming nicely with jeans, dresses and just about everything else in your closet, these adidas sneakers will stay in constant rotation. The smooth upper is lined for softness, while Cloudfoam cushioning delivers all the support you need on days that have you running here, there and everywhere.\n\nMade with a series of recycled materials, this upper features at least 50% recycled content. This product represents just one of our solutions to help end plastic waste.",
+      "image_1": "https://images.unsplash.com/photo-1523314399-837f3e0c291b?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image_2": "https://images.unsplash.com/photo-1556278777-a2a98c0d56da?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image_3": "https://images.unsplash.com/photo-1591175359473-ea9d54598f90?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "id": 6
+    },
+    {
+      "name": "An Enchanting Dream Purple Multi Print High-Low Maxi Dress",
+      "price": "5000",
+      "category_id": "2",
+      "quantity": "5",
+      "sale": "5",
+      "description": "Walk into the room looking like a dream with the Lulus An Enchanting Dream Purple Multi Print High-Low Maxi Dress! Stripes of satin panels (with shiny gold lurex threading) sweep across this lightweight woven chiffon dress that boasts an abstract white and purple floral pattern, adjustable straps, and a surplice neckline. A pleated bodice atop a high fitted waist falls to a flowy high-low skirt. Hidden back zipper/clasp.",
+      "image_1": "https://images.unsplash.com/photo-1596783074918-c84cb06531ca?q=80&w=2154&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image_2": "https://images.unsplash.com/photo-1596783047904-4000addd05cd?q=80&w=2303&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image_3": "https://images.unsplash.com/photo-1610211039240-933da48b4d32?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTh8fGRyZXNzZXN8ZW58MHwxfDB8fHww",
+      "id": 7
+    },
+    {
+      "name": "Promised Love White Beaded Lace Off-the-Shoulder Maxi Dress",
+      "price": "1000",
+      "category_id": "2",
+      "quantity": "5",
+      "sale": "6",
+      "description": "The Lulus Luxe Promised Love White Beaded Lace Off-the-Shoulder Maxi Dress is a beautiful reminder that love lasts forever! Beige stretch knit, a white lace layer, and an intricately beaded overlay all come together the form a glamourous off-the-shoulder bodice with wide straps, a sweetheart neckline (with hidden no-slip strips), and padded cups. Flattering high waist tops the cascading mermaid maxi skirt that ends with a court-length train at back. Each bridal order will arrive with one branded canvas garment bag included for storage and protection.",
+      "image_1": "https://images.unsplash.com/photo-1594552072238-b8a33785b261?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image_2": "https://images.unsplash.com/photo-1596181243306-e02a1897afb1?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image_3": "https://images.unsplash.com/photo-1549417229-7686ac5595fd?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "id": 8
+    },
+    {
+      "name": "Dreamy Glamour White Embroidered Halter Mermaid Maxi Dress",
+      "price": "2000",
+      "category_id": "2",
+      "quantity": "8",
+      "sale": "0",
+      "description": "The Lulus Dreamy Glamour White Embroidered Halter Mermaid Maxi Dress is ready to ready to make you glow with an ethereal essence on your big day! A sheer mesh overlay (atop a matching knit liner), adorned with an array of floral embroidery, floral applique details (some of which have a 3D effect at the edges), and delicate sparkly sequins throughout, shapes a sleeveless, princess-seamed bodice with supportive boning throughout, a classy halter neckline (with loop-button closures at back), and an alluring backless design. Let the high, fitted waist effortlessly accentuate your figure, while the mermaid-style maxi skirt with a dramatic train at the back creates the most elegant finish. Hidden back zipper/clasp.",
+      "image_1": "https://images.unsplash.com/photo-1552222661-e7731e74eb3a?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image_2": "https://images.unsplash.com/photo-1554793188-88e7febf8223?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D",
+      "image_3": "https://images.unsplash.com/photo-1552223412-f31b9e4d749c?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D",
+      "id": 9
+    },
+    {
+      "name": "Romance That Wows Magenta Floral Print Organza Maxi Dress",
+      "price": "3200",
+      "category_id": "2",
+      "quantity": "2",
+      "sale": "17",
+      "description": "Make a stunning entrance with your boo and the Lulus Romance That Wows Magenta Floral Print Organza Maxi Dress! Woven organza, with a red and ivory floral print, shapes this dress that has adjustable straps that crisscross at the open back, a deep V-neckline, and a fitted bodice. A banded waist tops a flowy maxi skirt with a thigh-high slit at the front. Hidden back zipper/clasp.",
+      "image_1": "https://images.unsplash.com/photo-1633077705106-54dbeaa69f36?q=80&w=2476&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image_2": "https://images.unsplash.com/photo-1633077705115-6d2cb163950b?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D",
+      "image_3": "https://images.unsplash.com/photo-1633077705124-c1473cea0bda?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fHw%3D",
+      "id": 10
+    },
+    {
+      "name": "Men's Jeans Button Zipper Pockets in solid color",
+      "price": "520",
+      "category_id": "3",
+      "quantity": "120",
+      "sale": "20",
+      "description": "Disclaimer： Size numbers represent approximate waist size in inches, please see detailed size guide for exact product measurements, not universal sizes of EU countries.",
+      "image_1": "https://images.unsplash.com/photo-1582552938357-32b906df40cb?q=80&w=2535&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image_2": "https://images.unsplash.com/photo-1563941962438-7f434920f2b9?q=80&w=2513&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image_3": "https://images.unsplash.com/photo-1560567546-4c6dbc16877b?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "id": 11
+    },
+    {
+      "name": "SHEIN Frenchy Denim Wash Season Mom Fit Women's Denim Pants",
+      "price": "360",
+      "category_id": "3",
+      "quantity": "110",
+      "sale": "15",
+      "description": "Color:\tWash gently\nModel:\tplain color\nType:\tStraight legs\nclosed type:\tIntegrated zipper\nDetail:\tButtons, Pockets, Zipper\nWaist:\tHigh waist\nLength:\tLong\nSuitable Type:\tUsually suitable\nCotton:\tLax\nMaterial:\tDenim/jeans\nIngredient:\t86% Cotton, 8% Viscose, 6% Polyester\nStorage instructions:\tHand wash or professional dry clean\nLining:\tNo borders\nThin:\tAre not",
+      "image_1": "https://images.unsplash.com/photo-1603217192634-61068e4d4bf9?q=80&w=2535&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image_2": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image_3": "https://images.unsplash.com/photo-1475178626620-a4d074967452?q=80&w=2572&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "id": 12
+    },
+    {
+      "name": "DAZY High-waisted wash wide-leg jeans",
+      "price": "460",
+      "category_id": "3",
+      "quantity": "112",
+      "sale": "12",
+      "description": "Color:\tWash gently\nModel:\tplain color\nType:\twide-leg pants\nclosed type:\tIntegrated zipper\nDetail:\tBags, denim wash season\nWaist:\tHigh waist\nLength:\tLong\nSuitable Type:\tWide\nCotton:\tLax\nMaterial:\tDenim/jeans\nIngredient:\t98% Cotton, 1% Polyester, 1% Viscose Fiber\nStorage instructions:\tMachine wash, do not dry clean\nLining:\tNo borders\nThin:\tAre not",
+      "image_1": "https://images.unsplash.com/photo-1628013624374-c9f7b4fc4bac?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHx8",
+      "image_2": "https://images.unsplash.com/photo-1601762923275-51ce14a3d490?q=80&w=2554&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image_3": "https://images.unsplash.com/photo-1593454140883-708c8f72f7ba?q=80&w=2548&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "id": 13
+    },
+    {
+      "name": "DAZY High Waist Wide Leg Denim Jeans (wash season Denim)",
+      "price": "420",
+      "category_id": "3",
+      "quantity": "90",
+      "sale": "19",
+      "description": "Color:\tBrown coffee\nModel:\tplain color\nType:\twide-leg pants\nJeans style:\tBaggy\nclosed type:\tIntegrated zipper\nDetail:\tButtons, Pockets, Zipper\nWaist:\tNature\nLength:\tLong\nSuitable Type:\tWide\nCotton:\tLax\nMaterial:\tDenim/jeans\nIngredient:\t83% Cotton, 15% Viscose, 2% Polyester\nStorage instructions:\tMachine wash or professional dry clean\nLining:\tNo borders\nThin:\tAre not\nFIXXXXXX",
+      "image_1": "https://images.unsplash.com/photo-1629045246540-16a761db8b35?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZGVuaW18ZW58MHwxfDB8fHww",
+      "image_2": "https://images.unsplash.com/photo-1602293589930-45aad59ba3ab?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZGVuaW18ZW58MHwxfDB8fHww",
+      "image_3": "https://images.unsplash.com/photo-1616003471864-9abfeee24576?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTB8fGRlbmltfGVufDB8MXwwfHx8MA%3D%3D",
+      "id": 14
+    },
+    {
+      "name": "Dark-colored denim jeans with wide, personality, ulzzang style short-sleeved denim shirt",
+      "price": "250",
+      "category_id": "3",
+      "quantity": "150",
+      "sale": "23",
+      "description": "Dark-colored denim jeans with loose fit, ulzzang style short-sleeved denim shirt\n- #women's fashion is an indispensable need for modern women.\n- Dressing well not only helps girls assert their personal style and show respect for others, but is also a tool to help them be more successful in life.\n- Therefore, the fashion market is becoming more diverse and rich with models of dresses, skirts, accessories,... for women to comfortably beautify themselves.\n_Choose_women's_clothes_that_suit_your_body_shape\n- When choosing to buy women's clothes, you should pay attention to the size of the clothes. An outfit that is too tight or too loose will make you look sloppy and cumbersome. Besides, depending on your body's characteristics, choose clothes that flatter your figure. For example, if you are not tall, you should not wear dresses that are too long, but instead, #short dresses will help you look longer. . Colors should also be chosen carefully to enhance your skin tone.\n#women's shirt\n- Material: Tops, tops, pants, skirts, etc. are mostly made from cotton, polyester, mixed polyester, artificial fibers, etc.\n- - Designs: A variety of styles, from elegant, feminine shirts to dynamic, youthful t-shirts. Girls can choose short-sleeved, long-sleeved, collared or collarless shirts depending on their purposes.\n#women's coats - #coatcardigan #coatshirts #coatcardigan\n- Material: High quality elastic material makes you feel warm in winter and cool in summer.\n- Long jacket hugs the body curve with long sleeves that can be pulled up flexibly.\n- Design: Product for women who need warm air during cold seasons.\n- In addition, fashion is an important factor that makes products stand out. Put on a cute #lightweight jacket\nDark-colored denim jeans with loose fit, ulzzang style short-sleeved denim shirt",
+      "image_1": "https://images.unsplash.com/photo-1577660002965-04865592fc60?q=80&w=2000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image_2": "https://images.unsplash.com/photo-1551537482-f2075a1d41f2?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D",
+      "image_3": "https://images.unsplash.com/photo-1591213954196-2d0ccb3f8d4c?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D\n",
+      "id": 15
+    },
+    {
+      "name": "Gaiam Women's Classic Fitness Running Hat - Ponytail Hats with Quick-Dry Sweatband for Hiking & Summer Beach Vacation",
+      "price": "120",
+      "category_id": "4",
+      "quantity": "20",
+      "sale": "28",
+      "description": "Gaiam Classic Fitness Hat is more than just a standard ball cap or baseball hat, this fitness hat features a built-in moisture wicking sweatband and is meant to be worn while exercising - great for weight-lifting, running and general fitness activities. Features an integrated Dry Fit Polyester Mesh moisture wicking sweatband on the inside of the hat to keep sweat off your face and out of the eyes - also protects the hat against unsightly sweat stains. Hat material is thick and durable, but also lightweight and breathable - hat is designed to take a beating and wipes clean and washes easily. The adjustable sure-fit sizing strap will fit a head circumference of 21. 5” to 23”. Hat arrives with a pre-shaped bill optimized for full and effective coverage from the sun and outdoor elements. Dimensions: Fits head circumferences of 21. 5” to 23” Materials: Main: 100% Polyester, Woven / Sweatband: Dry Fit 100% Polyester Mesh\n\n",
+      "image_1": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?q=80&w=2536&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image_2": "https://images.unsplash.com/photo-1534215754734-18e55d13e346?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D",
+      "image_3": "https://images.unsplash.com/photo-1525740615880-50bb88fe0b1f?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8",
+      "id": 16
+    },
+    {
+      "name": "Mizuno Women's Crossed Clubs Meshback Hat",
+      "price": "150",
+      "category_id": "4",
+      "quantity": "1500",
+      "sale": "39",
+      "description": "Whether it's on or off the golf course, this is the hat to represent your favorite golf brand. The trucker style meshback is perfect for keeping your head cool on the course.",
+      "image_1": "https://images.unsplash.com/photo-1604532057336-2c4a09f71330?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEyfHx8ZW58MHx8fHx8",
+      "image_2": "https://images.unsplash.com/photo-1591818343198-4ff334074580?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHx8",
+      "image_3": "https://images.unsplash.com/photo-1541598609756-e7dfa98d129f?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNhcHxlbnwwfDF8MHx8fDA%3D",
+      "id": 17
+    },
+    {
+      "name": "Non La Viet Nam",
+      "price": "200",
+      "category_id": "4",
+      "quantity": "3000",
+      "sale": "4",
+      "description": "Since ancient times, because our country was influenced by the hot, humid and rainy tropical monsoon climate, our ancestors knew how to invent the conical hat. It is made of many leaves tied together to make an item to wear on the head to cover the sun and rain. Gradually, the conical hat has gradually appeared as an essential item in daily life. The image of the predecessor of the conical hat was carved on Ngoc Lu bronze drums and Dao Thinh bronze jars around 3000 - 2500 years BC.",
+      "image_1": "https://images.unsplash.com/photo-1686433433858-9c39f584b99b?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8biVDMyVCM24lMjBsJUMzJUExfGVufDB8MXwwfHx8MA%3D%3D",
+      "image_2": "https://images.unsplash.com/photo-1619977102593-7b7604df3ca7?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8biVDMyVCM24lMjBsJUMzJUExfGVufDB8MXwwfHx8MA%3D%3D",
+      "image_3": "https://images.unsplash.com/photo-1606017959076-a57367c40efe?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8biVDMyVCM24lMjBsJUMzJUExfGVufDB8MXwwfHx8MA%3D%3D",
+      "id": 18
+    },
+    {
+      "name": "Carhartt Women's Rib Knit Beanie",
+      "price": "190",
+      "category_id": "4",
+      "quantity": "800",
+      "sale": "5",
+      "description": "Workwear essential and everyday hat, this women's Carhartt beanie is as versatile as it is classic. A soft acrylic rib knit offers itch-free comfort.\n\n",
+      "image_1": "https://images.unsplash.com/photo-1601486824526-95d907a445c4?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D",
+      "image_2": "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image_3": "https://images.unsplash.com/photo-1576105054064-bc1a4fb25943?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fHx8",
+      "id": 19
+    },
+    {
+      "name": "Roxy Women's Tomboy Straw Hat",
+      "price": "190",
+      "category_id": "4",
+      "quantity": "850",
+      "sale": "7",
+      "description": "Straw sun hat with adjustable chin strap, wide brim, and front Roxy logo patch.",
+      "image_1": "https://images.unsplash.com/photo-1552399230-e073362b3bf4?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aGF0c3xlbnwwfDF8MHx8fDA%3D",
+      "image_2": "https://images.unsplash.com/photo-1569520254493-8edfdeaa8fae?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aGF0c3xlbnwwfDF8MHx8fDA%3D",
+      "image_3": "https://images.unsplash.com/photo-1572453765270-eaf7b3c0fcff?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGhhdHN8ZW58MHwxfDB8fHww",
+      "id": 20
+    },
+    {
+      "name": "Women's Single Breasted Long Trench Coat with Epaulettes and Belt",
+      "price": "6500",
+      "category_id": "5",
+      "quantity": "200",
+      "sale": "25",
+      "description": "Single breasted long trench coat with epaulettes and belt",
+      "image_1": "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image_2": "https://images.unsplash.com/photo-1539533113208-f6df8cc8b543?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D",
+      "image_3": "https://images.unsplash.com/photo-1539539744374-82d54ab01ff6?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHx8",
+      "id": 21
+    },
+    {
+      "name": "Essentials Women's Lightweight Water-Resistant Hooded Puffer Coat (Available in Plus Size)",
+      "price": "500",
+      "category_id": "5",
+      "quantity": "200",
+      "sale": "50",
+      "description": "We listen to customer feedback and fine-tune every detail to ensure our clothes are more comfortable, higher quality, and longer lasting—at affordable prices for the whole family.",
+      "image_1": "https://images.unsplash.com/photo-1542088216-a7aed3b59586?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNvYXRzfGVufDB8MXwwfHx8MA%3D%3D",
+      "image_2": "https://images.unsplash.com/flagged/photo-1554033750-2137b5cfd7ce?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D",
+      "image_3": "https://plus.unsplash.com/premium_photo-1674718917175-70e7062732e5?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDh8fHxlbnwwfHx8fHw%3D",
+      "id": 22
+    },
+    {
+      "name": "Legendary Whitetails Journeyman Shirt Jacket, Flannel Lined Shacket for Men, Water-Resistant Coat Rugged Fall Clothing",
+      "price": "320",
+      "category_id": "5",
+      "quantity": "1256",
+      "sale": "40",
+      "description": "We added a flannel lining to our popular weathered cotton 'leather' shirt to build this one-of-a-kind shirt jac. The rugged cotton suede look comes with an unexpected softness. Features side hand warmer pockets, antique brass Legendary snaps, Signature Buck applique, and double needle stitching. Cotton/poly blend. Big & Tall sizes are designed for men over 6'2\" and add 2\" in body length and 1-1⁄2\" in sleeve length.",
+      "image_1": "https://images.unsplash.com/photo-1549902529-a515e31f0c1c?q=80&w=1848&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "image_2": "https://images.unsplash.com/photo-1555583743-991174c11425?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8",
+      "image_3": "https://images.unsplash.com/photo-1556623695-18255ef16b4a?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D",
+      "id": 23
+    },
+    {
+      "name": "Fruit of the Loom Eversoft Fleece Hoodies, Pullover & Full Zip, Moisture Wicking & Breathable, Sizes S-4X",
+      "price": "140",
+      "category_id": "5",
+      "quantity": "1256",
+      "sale": "30",
+      "description": "Fruit of the Loom fleece is made with Eversoft  cotton for premium softness wash after wash. This great fleece collection offers a variety of great benefits like wicking and odor protection that will help keep you feeling fresher longer. Our hoodie sweatshirt has a front pouch pocket to keep your hands warm, a two-piece hood for a better fit, and ribbed cuffs and waistband that hold their shape. Fruit of the loom has you covered for whatever the day brings, so don't sweat the small stuff.\n\n",
+      "image_1": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG9vZGllfGVufDB8MXwwfHx8MA%3D%3D",
+      "image_2": "https://images.unsplash.com/photo-1564557287817-3785e38ec1f5?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG9vZGllfGVufDB8MXwwfHx8MA%3D%3D",
+      "image_3": "https://images.unsplash.com/photo-1615397587950-3cbb55f95b77?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aG9vZGllfGVufDB8MXwwfHx8MA%3D%3D",
+      "id": 24
+    },
+    {
+      "name": "London Fog Women's 3/4 Length Double-Breasted Trench Coat with Belt",
+      "price": "340",
+      "category_id": "5",
+      "quantity": "1256",
+      "sale": "22",
+      "description": "Double breasted trench with raglan sleeves and gun flap.",
+      "image_1": "https://images.unsplash.com/photo-1591900947067-851789555ef3?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Y29hdHN8ZW58MHwxfDB8fHww",
+      "image_2": "https://images.unsplash.com/photo-1591900947203-ae8e77ab3663?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D",
+      "image_3": "https://images.unsplash.com/photo-1591900947223-24e400fe76f5?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fHw%3D",
+      "id": 25
+    },
+    {
+      "category_id": 4,
+      "name": "Carhartt Men's Rugged Professional Series Canvas Mesh-Back Cap",
+      "price": 250,
+      "sale": 12,
+      "image_1": "https://i.pinimg.com/474x/eb/e8/1e/ebe81edc822072badd26a6eacad5d964.jpg",
+      "image_2": "https://i.pinimg.com/474x/72/e0/1a/72e01a98c2e5b6287ce7798b5d79b8d7.jpg",
+      "image_3": "https://i.pinimg.com/474x/f4/cc/12/f4cc125057f7978c39b854310b20a17e.jpg",
+      "description": "This men's Carhartt cap has a pre-curved brim and an adjustable fit. Featuring a durable canvas exterior and an inside sweatband that wicks away moisture, fights odor, and keeps you working comfortably. 59% cotton / 39% polyester / 2% spandex canvas. Built with Force technology to wick sweat, dry fast, and fight odors. FastDry® technology keeps you cool for all day comfort. One size fits all #Structured, medium-profile cap with pre-curved visor. Adjustable snapback closure. Carhartt label sewn on side.",
+      "quantity": 56,
+      "id": 26
+    },
+    {
+      "category_id": 6,
+      "name": "dfdvdsf",
+      "price": 122324,
+      "sale": 12,
+      "image_1": "https://i.pinimg.com/474x/5d/9d/fa/5d9dfa90e502819ff343a2ec59bf8013.jpg",
+      "image_2": "https://i.pinimg.com/474x/5d/9d/fa/5d9dfa90e502819ff343a2ec59bf8013.jpg",
+      "image_3": "https://i.pinimg.com/474x/5d/9d/fa/5d9dfa90e502819ff343a2ec59bf8013.jpg",
+      "description": "cxvxzcvxxbxfv",
+      "quantity": 56,
+      "id": 27
+    },
+    {
+      "category_id": 4,
+      "name": "mũ",
+      "price": 121313,
+      "sale": 13,
+      "image_1": "https://i.pinimg.com/474x/90/fd/8b/90fd8b5baf6060f9ff8286fcc4528ec2.jpg",
+      "image_2": "https://i.pinimg.com/474x/90/fd/8b/90fd8b5baf6060f9ff8286fcc4528ec2.jpg",
+      "image_3": "https://i.pinimg.com/474x/90/fd/8b/90fd8b5baf6060f9ff8286fcc4528ec2.jpg",
+      "description": "fgfhdfhjdfhjdghjhdgkhdgkj",
+      "quantity": 0,
+      "id": 28
+    }
+  ],
+  "news": [
+    {
+      "main_title": "The Next Chapter of Gucci Valigeria Will Get You Ready for Summer Travels",
+      "author": "Kaitlin Serio",
+      "date": "2024-04-05 11:45:54",
+      "title_pra_1": "Heritage codes meet bold, bright colors...",
+      "content_1": "Kendall Jenner and Bad Bunny might be old news, but what’s not is the latest chapter of Gucci Valigeria, which launched this week. The campaign continues the journey that began back in October, celebrating the beginning of any journey and showcasing the art of traveling in style.",
+      "content_2": "The first chapter was also an ode to Gucci’s past while simultaneously looking ahead to the future, marking one of Sabato De Sarno’s first creative ventures for the House of Gucci. Now, the journey of Gucci Valigeria continues.",
+      "title_pra_2": "The Journey of Gucci Valigeria",
+      "content_3": "With Kendall Jenner and Bad Bunny at the forefront, campaign images showcase new pieces from the Gucci Savoy Collection that will leave you yearning for spring and summer travels.",
+      "content_4": "Classic brown GG Monogram is given a bold touch with neon accents, adding a modern edge to Gucci’s heritage pieces. Fusing House history with contemporary appeal, fluorescent accents further define duffle bags, backpacks, suitcases, and other travel accessories just in time for the warm-weather travel season.",
+      "content_5": "While bags and accessories stand out with bold trims, the outfits themselves continue to pair back to the bygone era of jet-setting in style. Evocative of 90s casual yet cool glam, Kendall Jenner is seen in various sleek looks alongside a stylish Bad Bunny.\n\n",
+      "motto": "The only way to do great work is to love what you do.",
+      "image_1": "https://www.purseblog.com/images/2024/04/New-York-Mets-Style-Louis-Vuitton-Speedy-Bags-3-600x338.jpg",
+      "image_2": "https://www.purseblog.com/images/2024/04/Gucci-Travel-Savoy-Neon-13.jpg",
+      "image_3": "https://www.purseblog.com/images/2024/04/Gucci-Travel-Savoy-Neon-7.jpg",
+      "id": 1
+    },
+    {
+      "main_title": "A Detailed Review of My Gucci Luce Shoulder Bag",
+      "author": "Kaitlin Serio",
+      "date": "2024-04-05 11:45:54",
+      "title_pra_1": "Part of Sabato De Sarno's debut collection, the Luce is a Gucci lover's dream",
+      "content_1": "Gucci Ancora, the brand’s Spring 2024 collection, marks a new chapter for the House of Gucci. Designed by Sabato De Sarno, Gucci’s new creative director, Ancora is undeniably different from the Gucci fans were used to under De Sarno’s predecessor, but in a really good way. It is fresh while still offering up an air of classic Gucci.",
+      "content_2": "When it comes to the bags, there is an undeniable element of modernity, with a touch of classic appeal. Debuting with Gucci Ancora this season and first seen on the Spring/Summer 2024 runway, the Gucci Luce Bag is one of the first new bag designs under Sabato De Sarno’s reign.",
+      "title_pra_2": "Aesthetics",
+      "content_3": "The moment the first bags of Ancora hit the runway, I knew that Gucci through Sabato De Sarno’s lens was the Gucci for me. I love the combination of contemporary meets vintage, and the Luce Shoulder bag oozes that exact appeal.",
+      "content_4": "Many of us worry about buying a bag that will quickly feel dated or easily be tied to a specific time in fashion. However, that is a non-issue with the Luce, which has that archival touch, allowing the shape to feel timeless even though it is entirely new.",
+      "content_5": "Speaking of the archives, the GG canvas is one of the House’s most important motifs, and the long baguette-like body of the Luce perfectly complements the storied pattern. While there are two color options offering the classic Gucci vibe, I prefer the beige and brown canvas trimmed with dark chocolate brown leather to the navy version.",
+      "motto": "The only way to do great work is to love what you do.\" - Steve Jobs",
+      "image_1": "https://www.purseblog.com/images/2024/03/Review-Gucci-Luce-Bag.jpg",
+      "image_2": "https://www.purseblog.com/images/2024/03/Review-Gucci-Luce-Bag-12.jpg",
+      "image_3": "https://www.purseblog.com/images/2024/03/Review-Gucci-Luce-Bag-14.jpg",
+      "id": 2
+    },
+    {
+      "main_title": "Sabato De Sarno Builds Upon His Vision At Gucci for Fall 2024",
+      "author": "Kaitlin Serio",
+      "date": "2024-04-05 11:45:54",
+      "title_pra_1": "Gucci heritage with a modern spin",
+      "content_1": "Sabato De Sarno wants to change the way we dress. There are no rules anymore. Fashion converses with reality, and what is presented defies what is expected. De Sarno’s vision of the Gucci wardrobe embraces a clear, feminine aesthetic. Silhouettes are refined, oozing romanticism and a distinct allure of sex appeal.",
+      "content_2": "Ready-to-wear feels innately feminine but with an edge. Velvet dresses with lace details give way to sheer sheaths, and twin sets worn underneath staple outerwear. A strong array of knitwear pieces is featured throughout, and this collection is all about unexpected details—jacquard prints that depict a geometric heron, only distinguishable up close. At the same time, crystal fringes create a ribbed motif.",
+      "title_pra_2": "New Bags Nod to the Archives",
+      "content_3": "On the runway, there are many new bags to mull over. First, there is a very consumer-friendly new top-handle bag called GG Milano; it arrives in an array of fun colors and is crafted from nappa leather with a puffy finish featuring a perforated logo print.",
+      "content_4": "That same embossed logo leather appears on RTW, too, like a stunning Gucci logo leather jacket, shown with a matching heritage-inspired travel vanity case.",
+      "content_5": "Sitting alongside new iterations of the Jackie Notte is a half-moon-shaped silhouette inspired by equestrian motifs found in the Gucci Archive. Offering a contemporary appeal, this rounded shape is shown in shiny leathers and exotics in Gucci’s new staple hues. It is finished with an interlocking GG logo.",
+      "motto": "In the midst of chaos, there is also opportunity.",
+      "image_1": "https://www.purseblog.com/images/2024/03/Let-s-Talk-About-Gifting-600x337.jpg",
+      "image_2": "https://www.purseblog.com/images/2024/02/GUCCI-Fall-2024-Runway-Bags-36.jpg",
+      "image_3": "https://www.purseblog.com/images/2024/02/GUCCI-Fall-2024-Runway-Bags-31.jpg",
+      "id": 3
+    },
+    {
+      "main_title": "Miley Cyrus Accepts Grammy With Her Gucci Bamboo 1947 Bag in Hand",
+      "author": "Kaitlin Serio",
+      "date": "2024-04-05 11:45:54",
+      "title_pra_1": "She can buy herself Gucci...",
+      "content_1": "It was a night of firsts at the 66th Annual GRAMMY Awards, which took place on Sunday in Los Angeles. Miley Cyrus, who wore a full Gucci by Sabato de Sarno look, had her first win, taking home not one but two awards.",
+      "content_2": "Cyrus, who took home the GRAMMY for both Best Solo Pop Performace and Record of the Year, accepted her award for the latter with a Gucci Bamboo 1947 bag in hand—the finishing touch to her stunning custom chocolate brown sequin dress, which she paired with Gucci Signoria pumps and a tonal feather boa.\n\n",
+      "title_pra_2": "A Pop Culture Moment",
+      "content_3": "Gucci Bamboo is one of the most recognizable elements of modern handbag history. Few techniques are as innovative and celebrated as the curved handles of Gucci Bamboo. The patented method of creation was developed in 1947 by Gucci craftsmen who realized there was a specific process to heat and bend bamboo in such a way that it would retain its shape once cooled.",
+      "content_4": "One of the most important bamboo shapes from the house remains to be the original (and now iconic) Gucci Bamboo 1947 top handle. Reveled for its timelessness, the Gucci Bamboo 1947 offers a touch of classic with a modern appeal.",
+      "content_5": "Decades after it was first introduced, the bag has already made its way into fashion history. Now, it’s making its way into pop culture history with Miley Cyrus’ unprecedented on-stage moment.",
+      "motto": "Believe you can and you're halfway there",
+      "image_1": "https://www.purseblog.com/images/2024/04/Celine-Triomphe-600x338.jpg",
+      "image_2": "https://www.purseblog.com/images/2024/02/Miley-Cyrus-Grammy-Awards-2024-Gucci.jpg",
+      "image_3": "https://www.purseblog.com/images/2024/02/MileyCyrus-Grammy-Awards-iin-Custom-Gucci.jpg",
+      "id": 4
+    },
+    {
+      "main_title": "Sabato De Sarno Just Made His Menswear Debut for Gucci",
+      "author": "Kaitlin Serio",
+      "date": "2024-04-05 11:45:54",
+      "title_pra_1": "Featuring bags, monogram, Gucci burgundy and more!",
+      "content_1": "Featuring bags, monogram, Gucci burgundy and more!",
+      "content_2": "The first thing to note is how well it sits with the womenswear collection. The two could have easily been presented as one, as many brands do these days, and it would have worked seamlessly. Pieces are mostly wearable and incredibly stylish, but in an understated way, dare we say quiet, way.",
+      "title_pra_2": "The Many Man Bags of Gucci Men’s Fall 2024",
+      "content_3": "The growing popularity of the men’s bag market was not lost on De Sarno, who delighted us with an incredible amount of bags. There were riffs on the classic Jackie 1961, in what can now be described as “Gucci Burgundy,” deep browns and bright green.",
+      "content_4": "Then there’s the Gucci Monogram, seen on totes and a new moon bag, paired with matching RTW for head-to-toe logo looks. Plenty of other leather carryalls are present throughout, clutched by models in various shapes, some that read an embossed GUCCI on the side.",
+      "content_5": "While critics have pointed out that De Sarno’s first work feels safe and even commercial, De Sarno is clear and concise in his vision. Explaining to Vogue Runway that he doesn’t “care about the Instagram moment,” and the ready-to-wear echoes that sentiment.",
+      "motto": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+      "image_1": "https://unsplash.com/blog/content/images/size/w1600/2024/03/Same-Series-1--Blog-.jpg",
+      "image_2": "https://www.purseblog.com/images/2024/01/Gucci-Men-s-FW-2024-3.jpg",
+      "image_3": "https://www.purseblog.com/images/2024/01/Gucci-Men-s-FW-2024-15.jpg",
+      "id": 5
+    },
+    {
+      "main_title": "Sabato De Sarno Makes His SS24 Debut With New Gucci Ancora Campaign",
+      "author": "Kaitlin Serio",
+      "date": "2024-04-05 11:45:54",
+      "title_pra_1": "New year, new Gucci.",
+      "content_1": "An exciting year begins for the House of Gucci, celebrating the debut collection from new creative director Sabato De Sarno, which launches this Spring. Today, the next chapter of the story is written with the release of De Sarno’s first campaign for Gucci.",
+      "content_2": "Unveiled today, the Gucci Ancora campaign transcends the traditional, portraying a unique narrative of personal expression. Celebrating fashion and beauty with a timeless allure, all through the lens of Sabato De Sarno.",
+      "title_pra_2": "A New Vision for Gucci",
+      "content_3": "The campaign offers a further look into De Sarno’s new vision for the House, showcasing pieces from his debut collection for Spring/Summer 2024, which was revealed in September. The images themselves were inspired by British fashion photographer David Sims and are a tribute to the art of fashion photography.",
+      "content_4": "As a whole, the imagery portrays the unique view that De Sarnos has for the House, one of authenticism and empowerment, powered by wardrobe necessities that offer a touch of everyday elegance.",
+      "content_5": "Statement pieces like bold red leather are paired with denim and tailored essentials. At the same time, the bags presented are the newest version of the Gucci Jackie 1961 and a new handheld GG logo silhouette designed by De Sarno. View images from the campaign below and discover more via Gucci.",
+      "motto": "The only limit to our realization of tomorrow will be our doubts of today.",
+      "image_1": "https://unsplash.com/blog/content/images/size/w1600/2024/03/Same-Series-3--Blog-.jpg",
+      "image_2": "https://www.purseblog.com/images/2024/01/Gucci-Ancora-Ad-Campaign-3.jpg",
+      "image_3": "https://www.purseblog.com/images/2024/01/Gucci-Ancora-Ad-Campaign-5.jpg",
+      "id": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Shoes"
+    },
+    {
+      "id": 2,
+      "name": "Dresses"
+    },
+    {
+      "id": 3,
+      "name": "Jeans"
+    },
+    {
+      "id": 4,
+      "name": "Hats"
+    },
+    {
+      "id": 5,
+      "name": "Coats"
+    },
+    {
+      "name": "My store",
+      "id": 7
+    }
+  ],
+  "users": [
+    {
+      "firstname": "Phạm",
+      "lastname": "Hồ Công Khương",
+      "address": "270/16 Đinh Bộ Lĩnh",
+      "email": "khuongphcps33347@fpt.edu.vn",
+      "password": "abC@1234567",
+      "phone": "0455564564",
+      "permission": "1",
+      "image": "https://i.pinimg.com/474x/b0/96/45/b096454c9e3199a553e1abc5543ee39a.jpg",
+      "id": 1
+    },
+    {
+      "firstname": "stkt",
+      "lastname": "stkt",
+      "address": "stkt",
+      "email": "phck2@gmail.com",
+      "password": "Kk07112004.@k2",
+      "phone": "0455564564",
+      "image": "something (5).jpg",
+      "id": 2
+    },
+    {
+      "firstname": "Phạm",
+      "lastname": "Hồ Công Khương",
+      "address": "270/16 Đinh Bộ Lĩnh",
+      "email": "khuongphcps33347@fpt.edu.vn",
+      "password": "12345",
+      "image": "https://i.pinimg.com/474x/da/a6/d0/daa6d0c2e1f940fc6d2fd4307373d85d.jpg",
+      "id": 3
+    },
+    {
+      "lastname": "Khương",
+      "address": "TP.HCM",
+      "email": "congkhuong.work@gmail.com",
+      "password": "7112004.kK",
+      "phone": "5121515162",
+      "image": "https://i.pinimg.com/474x/da/a6/d0/daa6d0c2e1f940fc6d2fd4307373d85d.jpg",
+      "id": 4
+    },
+    {
+      "lastname": "Khương",
+      "address": "Đinh Bộ Lĩnh",
+      "email": "lmh77vn@gmail.com",
+      "password": "*(10VLkk",
+      "phone": "0346724122",
+      "image": "https://i.pinimg.com/474x/da/a6/d0/daa6d0c2e1f940fc6d2fd4307373d85d.jpg",
+      "id": 5
+    },
+    {
+      "firstname": "Phạm",
+      "lastname": "Hồ Công Khương",
+      "address": "270/16 Đinh Bộ Lĩnh",
+      "email": "khuongphcps33347@fpt.edu.vn",
+      "password": "123456",
+      "phone": "0346388528",
+      "image": "https://i.pinimg.com/474x/da/a6/d0/daa6d0c2e1f940fc6d2fd4307373d85d.jpg",
+      "id": 6
+    }
+  ],
+  "comments": [
+    {
+      "idproduct": "23",
+      "id_user": 2,
+      "title": "Test3",
+      "content": "teeeeeeee",
+      "date": "2024-04-05 11:45:54",
+      "id": 4
+    },
+    {
+      "idproduct": "9",
+      "id_user": 1,
+      "title": "Test3",
+      "content": "451515451",
+      "date": "2024-04-05 11:49:03",
+      "id": 5
+    },
+    {
+      "idproduct": "1",
+      "id_user": 1,
+      "title": "Test",
+      "content": "oipiop",
+      "date": "4/5/2024, 12:41:36 PM",
+      "id": 6
+    },
+    {
+      "idproduct": "3",
+      "id_user": 1,
+      "title": "Bình luận",
+      "content": "Sản phẩm đắt",
+      "date": "4/5/2024, 1:11:57 PM",
+      "id": 7
+    },
+    {
+      "idproduct": "14",
+      "id_user": 5,
+      "title": "Bình luận",
+      "content": "bffkgfkgskfghfgkgfhgkfgfgsg",
+      "date": "4/7/2024, 8:25:23 PM",
+      "id": 8
+    },
+    {
+      "idproduct": "4",
+      "id_user": 3,
+      "title": "Test",
+      "content": "khjkhijk,uik,,j,kj",
+      "date": "4/7/2024, 9:23:54 PM",
+      "id": 9
+    }
+  ],
+  "orders": [
+    {
+      "products": [
+        {
+          "name": "Romance That Wows Magenta Floral Print Organza Maxi Dress",
+          "price": "3200",
+          "category_id": "2",
+          "quantity": 2,
+          "sale": "17",
+          "description": "Make a stunning entrance with your boo and the Lulus Romance That Wows Magenta Floral Print Organza Maxi Dress! Woven organza, with a red and ivory floral print, shapes this dress that has adjustable straps that crisscross at the open back, a deep V-neckline, and a fitted bodice. A banded waist tops a flowy maxi skirt with a thigh-high slit at the front. Hidden back zipper/clasp.",
+          "image_1": "https://images.unsplash.com/photo-1633077705106-54dbeaa69f36?q=80&w=2476&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "image_2": "https://images.unsplash.com/photo-1633077705115-6d2cb163950b?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D",
+          "image_3": "https://images.unsplash.com/photo-1633077705124-c1473cea0bda?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fHw%3D",
+          "id": 10
+        },
+        {
+          "name": "Chuck Taylor All Star 1970s - A05589C",
+          "price": "1800",
+          "category_id": "1",
+          "quantity": 2,
+          "sale": "12",
+          "description": "The radiance lives on in the Nike Air Force 1 '07, the b-ball icon that puts a fresh spin on what you know best: crisp leather, bold colours and the perfect amount of flash to make you shine. A subtle platform gives you just the right amount of height.",
+          "image_1": "https://images.unsplash.com/photo-1576664839181-e08ac3624a6d?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNvbnZlcnNlfGVufDB8fDB8fHww",
+          "image_2": "https://images.unsplash.com/photo-1601131831144-5d096d7a832c?q=80&w=2564&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "image_3": "https://images.unsplash.com/photo-1626707695986-751d8776f39e?q=80&w=2572&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "id": 4
+        },
+        {
+          "name": "Mizuno Women's Crossed Clubs Meshback Hat",
+          "price": "150",
+          "category_id": "4",
+          "quantity": 1,
+          "sale": "39",
+          "description": "Whether it's on or off the golf course, this is the hat to represent your favorite golf brand. The trucker style meshback is perfect for keeping your head cool on the course.",
+          "image_1": "https://images.unsplash.com/photo-1604532057336-2c4a09f71330?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEyfHx8ZW58MHx8fHx8",
+          "image_2": "https://images.unsplash.com/photo-1591818343198-4ff334074580?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHx8",
+          "image_3": "https://images.unsplash.com/photo-1541598609756-e7dfa98d129f?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNhcHxlbnwwfDF8MHx8fDA%3D",
+          "id": 17
+        }
+      ],
+      "id_user": 1,
+      "total": 8571.5,
+      "date": "2024-04-05 21:51:40",
+      "status": "Order",
+      "id": 1
+    },
+    {
+      "products": [
+        {
+          "name": "Romance That Wows Magenta Floral Print Organza Maxi Dress",
+          "price": "3200",
+          "category_id": "2",
+          "quantity": 2,
+          "sale": "17",
+          "description": "Make a stunning entrance with your boo and the Lulus Romance That Wows Magenta Floral Print Organza Maxi Dress! Woven organza, with a red and ivory floral print, shapes this dress that has adjustable straps that crisscross at the open back, a deep V-neckline, and a fitted bodice. A banded waist tops a flowy maxi skirt with a thigh-high slit at the front. Hidden back zipper/clasp.",
+          "image_1": "https://images.unsplash.com/photo-1633077705106-54dbeaa69f36?q=80&w=2476&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "image_2": "https://images.unsplash.com/photo-1633077705115-6d2cb163950b?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D",
+          "image_3": "https://images.unsplash.com/photo-1633077705124-c1473cea0bda?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fHw%3D",
+          "id": 10
+        },
+        {
+          "name": "Chuck Taylor All Star 1970s - A05589C",
+          "price": "1800",
+          "category_id": "1",
+          "quantity": 2,
+          "sale": "12",
+          "description": "The radiance lives on in the Nike Air Force 1 '07, the b-ball icon that puts a fresh spin on what you know best: crisp leather, bold colours and the perfect amount of flash to make you shine. A subtle platform gives you just the right amount of height.",
+          "image_1": "https://images.unsplash.com/photo-1576664839181-e08ac3624a6d?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNvbnZlcnNlfGVufDB8fDB8fHww",
+          "image_2": "https://images.unsplash.com/photo-1601131831144-5d096d7a832c?q=80&w=2564&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "image_3": "https://images.unsplash.com/photo-1626707695986-751d8776f39e?q=80&w=2572&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "id": 4
+        },
+        {
+          "name": "Mizuno Women's Crossed Clubs Meshback Hat",
+          "price": "150",
+          "category_id": "4",
+          "quantity": 1,
+          "sale": "39",
+          "description": "Whether it's on or off the golf course, this is the hat to represent your favorite golf brand. The trucker style meshback is perfect for keeping your head cool on the course.",
+          "image_1": "https://images.unsplash.com/photo-1604532057336-2c4a09f71330?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEyfHx8ZW58MHx8fHx8",
+          "image_2": "https://images.unsplash.com/photo-1591818343198-4ff334074580?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHx8",
+          "image_3": "https://images.unsplash.com/photo-1541598609756-e7dfa98d129f?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNhcHxlbnwwfDF8MHx8fDA%3D",
+          "id": 17
+        }
+      ],
+      "id_user": 1,
+      "total": 8571.5,
+      "date": "2024-04-05 21:53:22",
+      "status": "Order",
+      "id": 2
+    },
+    {
+      "products": [
+        {
+          "name": "Nike Air Max Plus",
+          "price": "5700",
+          "category_id": "1",
+          "quantity": 1,
+          "sale": "12",
+          "description": "The radiance lives on in the Nike Air Force 1 '07, the b-ball icon that puts a fresh spin on what you know best: crisp leather, bold colours and the perfect amount of flash to make you shine. A subtle platform gives you just the right amount of height.",
+          "image_1": "https://images.unsplash.com/photo-1603036050780-467917370518?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "image_2": "https://images.unsplash.com/photo-1603036050855-0d77c10e1eb2?q=80&w=2402&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "image_3": "https://images.unsplash.com/photo-1603036050141-c61fde866f5c?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "id": 3
+        },
+        {
+          "name": "Dark-colored denim jeans with wide, personality, ulzzang style short-sleeved denim shirt",
+          "price": "250",
+          "category_id": "3",
+          "quantity": 1,
+          "sale": "23",
+          "description": "Dark-colored denim jeans with loose fit, ulzzang style short-sleeved denim shirt\n- #women's fashion is an indispensable need for modern women.\n- Dressing well not only helps girls assert their personal style and show respect for others, but is also a tool to help them be more successful in life.\n- Therefore, the fashion market is becoming more diverse and rich with models of dresses, skirts, accessories,... for women to comfortably beautify themselves.\n_Choose_women's_clothes_that_suit_your_body_shape\n- When choosing to buy women's clothes, you should pay attention to the size of the clothes. An outfit that is too tight or too loose will make you look sloppy and cumbersome. Besides, depending on your body's characteristics, choose clothes that flatter your figure. For example, if you are not tall, you should not wear dresses that are too long, but instead, #short dresses will help you look longer. . Colors should also be chosen carefully to enhance your skin tone.\n#women's shirt\n- Material: Tops, tops, pants, skirts, etc. are mostly made from cotton, polyester, mixed polyester, artificial fibers, etc.\n- - Designs: A variety of styles, from elegant, feminine shirts to dynamic, youthful t-shirts. Girls can choose short-sleeved, long-sleeved, collared or collarless shirts depending on their purposes.\n#women's coats - #coatcardigan #coatshirts #coatcardigan\n- Material: High quality elastic material makes you feel warm in winter and cool in summer.\n- Long jacket hugs the body curve with long sleeves that can be pulled up flexibly.\n- Design: Product for women who need warm air during cold seasons.\n- In addition, fashion is an important factor that makes products stand out. Put on a cute #lightweight jacket\nDark-colored denim jeans with loose fit, ulzzang style short-sleeved denim shirt",
+          "image_1": "https://images.unsplash.com/photo-1577660002965-04865592fc60?q=80&w=2000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "image_2": "https://images.unsplash.com/photo-1551537482-f2075a1d41f2?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D",
+          "image_3": "https://images.unsplash.com/photo-1591213954196-2d0ccb3f8d4c?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D\n",
+          "id": 15
+        }
+      ],
+      "id_user": 1,
+      "total": 5208.5,
+      "date": "2024-04-05 22:06:34",
+      "status": "pending",
+      "comment": "bdghbfgbfgnbfgn",
+      "id": 3
+    },
+    {
+      "products": [
+        {
+          "name": "Nike Air Max Plus",
+          "price": "5700",
+          "category_id": "1",
+          "quantity": 1,
+          "sale": "12",
+          "description": "The radiance lives on in the Nike Air Force 1 '07, the b-ball icon that puts a fresh spin on what you know best: crisp leather, bold colours and the perfect amount of flash to make you shine. A subtle platform gives you just the right amount of height.",
+          "image_1": "https://images.unsplash.com/photo-1603036050780-467917370518?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "image_2": "https://images.unsplash.com/photo-1603036050855-0d77c10e1eb2?q=80&w=2402&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "image_3": "https://images.unsplash.com/photo-1603036050141-c61fde866f5c?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "id": 3
+        }
+      ],
+      "id_user": 1,
+      "total": 5016,
+      "date": "2024-04-05 22:09:16",
+      "status": "Order",
+      "id": 4
+    },
+    {
+      "products": [
+        {
+          "name": "Airforce 1",
+          "price": "15000",
+          "category_id": "1",
+          "quantity": 1,
+          "sale": "15",
+          "description": "The radiance lives on in the Nike Air Force 1 '07, the b-ball icon that puts a fresh spin on what you know best: crisp leather, bold colours and the perfect amount of flash to make you shine. A subtle platform gives you just the right amount of height.",
+          "image_1": "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?q=80&w=2565&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "image_2": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWlyJTIwZm9yY2UlMjAxfGVufDB8fDB8fHww",
+          "image_3": "https://images.unsplash.com/photo-1584386450584-c6d766612a45?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "id": 2
+        }
+      ],
+      "id_user": 1,
+      "total": 12750,
+      "date": "2024-04-05 22:31:25",
+      "status": "Order",
+      "id": 5
+    },
+    {
+      "products": [
+        {
+          "name": "Nike Air Max Plus",
+          "price": "5700",
+          "category_id": "1",
+          "quantity": 1,
+          "sale": "12",
+          "description": "The radiance lives on in the Nike Air Force 1 '07, the b-ball icon that puts a fresh spin on what you know best: crisp leather, bold colours and the perfect amount of flash to make you shine. A subtle platform gives you just the right amount of height.",
+          "image_1": "https://images.unsplash.com/photo-1603036050780-467917370518?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "image_2": "https://images.unsplash.com/photo-1603036050855-0d77c10e1eb2?q=80&w=2402&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "image_3": "https://images.unsplash.com/photo-1603036050141-c61fde866f5c?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "id": 3
+        },
+        {
+          "name": "Fruit of the Loom Eversoft Fleece Hoodies, Pullover & Full Zip, Moisture Wicking & Breathable, Sizes S-4X",
+          "price": "140",
+          "category_id": "5",
+          "quantity": 1,
+          "sale": "30",
+          "description": "Fruit of the Loom fleece is made with Eversoft  cotton for premium softness wash after wash. This great fleece collection offers a variety of great benefits like wicking and odor protection that will help keep you feeling fresher longer. Our hoodie sweatshirt has a front pouch pocket to keep your hands warm, a two-piece hood for a better fit, and ribbed cuffs and waistband that hold their shape. Fruit of the loom has you covered for whatever the day brings, so don't sweat the small stuff.\n\n",
+          "image_1": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aG9vZGllfGVufDB8MXwwfHx8MA%3D%3D",
+          "image_2": "https://images.unsplash.com/photo-1564557287817-3785e38ec1f5?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aG9vZGllfGVufDB8MXwwfHx8MA%3D%3D",
+          "image_3": "https://images.unsplash.com/photo-1615397587950-3cbb55f95b77?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aG9vZGllfGVufDB8MXwwfHx8MA%3D%3D",
+          "id": 24
+        }
+      ],
+      "id_user": 2,
+      "total": 5114,
+      "date": "2024-04-05 22:40:02",
+      "status": "Order",
+      "id": 6
+    },
+    {
+      "products": [
+        {
+          "name": "Airforce 1",
+          "price": "15000",
+          "category_id": "1",
+          "quantity": 1,
+          "sale": "15",
+          "description": "The radiance lives on in the Nike Air Force 1 '07, the b-ball icon that puts a fresh spin on what you know best: crisp leather, bold colours and the perfect amount of flash to make you shine. A subtle platform gives you just the right amount of height.",
+          "image_1": "https://images.unsplash.com/photo-1600269452121-4f2416e55c28?q=80&w=2565&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "image_2": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YWlyJTIwZm9yY2UlMjAxfGVufDB8fDB8fHww",
+          "image_3": "https://images.unsplash.com/photo-1584386450584-c6d766612a45?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "id": 2
+        }
+      ],
+      "id_user": 2,
+      "total": 12750,
+      "date": "2024-04-05 22:47:51",
+      "status": "Order",
+      "id": 7
+    },
+    {
+      "products": [
+        {
+          "name": "Roxy Women's Tomboy Straw Hat",
+          "price": "190",
+          "category_id": "4",
+          "quantity": 1,
+          "sale": "7",
+          "description": "Straw sun hat with adjustable chin strap, wide brim, and front Roxy logo patch.",
+          "image_1": "https://images.unsplash.com/photo-1552399230-e073362b3bf4?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aGF0c3xlbnwwfDF8MHx8fDA%3D",
+          "image_2": "https://images.unsplash.com/photo-1569520254493-8edfdeaa8fae?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aGF0c3xlbnwwfDF8MHx8fDA%3D",
+          "image_3": "https://images.unsplash.com/photo-1572453765270-eaf7b3c0fcff?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGhhdHN8ZW58MHwxfDB8fHww",
+          "id": 20
+        }
+      ],
+      "id_user": 1,
+      "total": 176.7,
+      "date": "2024-04-06 12:29:57",
+      "status": "Cancelled",
+      "id": 8
+    },
+    {
+      "products": [
+        {
+          "name": "DAZY High Waist Wide Leg Denim Jeans (wash season Denim)",
+          "price": "420",
+          "category_id": "3",
+          "quantity": 1,
+          "sale": "19",
+          "description": "Color:\tBrown coffee\nModel:\tplain color\nType:\twide-leg pants\nJeans style:\tBaggy\nclosed type:\tIntegrated zipper\nDetail:\tButtons, Pockets, Zipper\nWaist:\tNature\nLength:\tLong\nSuitable Type:\tWide\nCotton:\tLax\nMaterial:\tDenim/jeans\nIngredient:\t83% Cotton, 15% Viscose, 2% Polyester\nStorage instructions:\tMachine wash or professional dry clean\nLining:\tNo borders\nThin:\tAre not",
+          "image_1": "https://images.unsplash.com/photo-1629045246540-16a761db8b35?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZGVuaW18ZW58MHwxfDB8fHww",
+          "image_2": "https://images.unsplash.com/photo-1602293589930-45aad59ba3ab?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZGVuaW18ZW58MHwxfDB8fHww",
+          "image_3": "https://images.unsplash.com/photo-1616003471864-9abfeee24576?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTB8fGRlbmltfGVufDB8MXwwfHx8MA%3D%3D",
+          "id": 14
+        }
+      ],
+      "id_user": 1,
+      "total": 340.2,
+      "date": "2024-04-06 12:30:34",
+      "status": "Order",
+      "id": 9
+    },
+    {
+      "products": [
+        {
+          "name": "DAZY High Waist Wide Leg Denim Jeans (wash season Denim)",
+          "price": "420",
+          "category_id": "3",
+          "quantity": 6,
+          "sale": "19",
+          "description": "Color:\tBrown coffee\nModel:\tplain color\nType:\twide-leg pants\nJeans style:\tBaggy\nclosed type:\tIntegrated zipper\nDetail:\tButtons, Pockets, Zipper\nWaist:\tNature\nLength:\tLong\nSuitable Type:\tWide\nCotton:\tLax\nMaterial:\tDenim/jeans\nIngredient:\t83% Cotton, 15% Viscose, 2% Polyester\nStorage instructions:\tMachine wash or professional dry clean\nLining:\tNo borders\nThin:\tAre not",
+          "image_1": "https://images.unsplash.com/photo-1629045246540-16a761db8b35?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZGVuaW18ZW58MHwxfDB8fHww",
+          "image_2": "https://images.unsplash.com/photo-1602293589930-45aad59ba3ab?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZGVuaW18ZW58MHwxfDB8fHww",
+          "image_3": "https://images.unsplash.com/photo-1616003471864-9abfeee24576?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTB8fGRlbmltfGVufDB8MXwwfHx8MA%3D%3D",
+          "id": 14,
+          "quantity_cart": 6
+        }
+      ],
+      "id_user": 5,
+      "total": 2041.1999999999998,
+      "date": "2024-04-07 20:23:40",
+      "status": "Processing",
+      "id": 10
+    },
+    {
+      "products": [
+        {
+          "name": "Non La Viet Nam",
+          "price": "200",
+          "category_id": "4",
+          "quantity": 1,
+          "sale": "4",
+          "description": "Since ancient times, because our country was influenced by the hot, humid and rainy tropical monsoon climate, our ancestors knew how to invent the conical hat. It is made of many leaves tied together to make an item to wear on the head to cover the sun and rain. Gradually, the conical hat has gradually appeared as an essential item in daily life. The image of the predecessor of the conical hat was carved on Ngoc Lu bronze drums and Dao Thinh bronze jars around 3000 - 2500 years BC.",
+          "image_1": "https://images.unsplash.com/photo-1686433433858-9c39f584b99b?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8biVDMyVCM24lMjBsJUMzJUExfGVufDB8MXwwfHx8MA%3D%3D",
+          "image_2": "https://images.unsplash.com/photo-1619977102593-7b7604df3ca7?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8biVDMyVCM24lMjBsJUMzJUExfGVufDB8MXwwfHx8MA%3D%3D",
+          "image_3": "https://images.unsplash.com/photo-1606017959076-a57367c40efe?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8biVDMyVCM24lMjBsJUMzJUExfGVufDB8MXwwfHx8MA%3D%3D",
+          "id": 18
+        },
+        {
+          "name": "An Enchanting Dream Purple Multi Print High-Low Maxi Dress",
+          "price": "5000",
+          "category_id": "2",
+          "quantity": 1,
+          "sale": "5",
+          "description": "Walk into the room looking like a dream with the Lulus An Enchanting Dream Purple Multi Print High-Low Maxi Dress! Stripes of satin panels (with shiny gold lurex threading) sweep across this lightweight woven chiffon dress that boasts an abstract white and purple floral pattern, adjustable straps, and a surplice neckline. A pleated bodice atop a high fitted waist falls to a flowy high-low skirt. Hidden back zipper/clasp.",
+          "image_1": "https://images.unsplash.com/photo-1596783074918-c84cb06531ca?q=80&w=2154&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "image_2": "https://images.unsplash.com/photo-1596783047904-4000addd05cd?q=80&w=2303&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "image_3": "https://images.unsplash.com/photo-1610211039240-933da48b4d32?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTh8fGRyZXNzZXN8ZW58MHwxfDB8fHww",
+          "id": 7
+        }
+      ],
+      "id_user": 1,
+      "total": 4942,
+      "date": "2024-04-09 12:23:14",
+      "status": "Order",
+      "id": 11
+    },
+    {
+      "products": [
+        {
+          "category_id": 4,
+          "name": "Carhartt Men's Rugged Professional Series Canvas Mesh-Back Cap",
+          "price": 250,
+          "sale": 12,
+          "image_1": "https://i.pinimg.com/474x/eb/e8/1e/ebe81edc822072badd26a6eacad5d964.jpg",
+          "image_2": "https://i.pinimg.com/474x/72/e0/1a/72e01a98c2e5b6287ce7798b5d79b8d7.jpg",
+          "image_3": "https://i.pinimg.com/474x/f4/cc/12/f4cc125057f7978c39b854310b20a17e.jpg",
+          "description": "This men's Carhartt cap has a pre-curved brim and an adjustable fit. Featuring a durable canvas exterior and an inside sweatband that wicks away moisture, fights odor, and keeps you working comfortably. 59% cotton / 39% polyester / 2% spandex canvas. Built with Force technology to wick sweat, dry fast, and fight odors. FastDry® technology keeps you cool for all day comfort. One size fits all #Structured, medium-profile cap with pre-curved visor. Adjustable snapback closure. Carhartt label sewn on side.",
+          "quantity": 2,
+          "id": 26,
+          "quantity_cart": 4
+        }
+      ],
+      "id_user": 6,
+      "total": 440,
+      "date": "2024-04-09 12:45:51",
+      "status": "Completed",
+      "id": 12
+    },
+    {
+      "products": [
+        {
+          "name": "An Enchanting Dream Purple Multi Print High-Low Maxi Dress",
+          "price": "5000",
+          "category_id": "2",
+          "quantity": 1,
+          "sale": "5",
+          "description": "Walk into the room looking like a dream with the Lulus An Enchanting Dream Purple Multi Print High-Low Maxi Dress! Stripes of satin panels (with shiny gold lurex threading) sweep across this lightweight woven chiffon dress that boasts an abstract white and purple floral pattern, adjustable straps, and a surplice neckline. A pleated bodice atop a high fitted waist falls to a flowy high-low skirt. Hidden back zipper/clasp.",
+          "image_1": "https://images.unsplash.com/photo-1596783074918-c84cb06531ca?q=80&w=2154&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "image_2": "https://images.unsplash.com/photo-1596783047904-4000addd05cd?q=80&w=2303&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "image_3": "https://images.unsplash.com/photo-1610211039240-933da48b4d32?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTh8fGRyZXNzZXN8ZW58MHwxfDB8fHww",
+          "id": 7
+        }
+      ],
+      "id_user": 1,
+      "total": 4750,
+      "date": "2024-05-05 19:57:53",
+      "status": "Pending",
+      "id": 13
+    }
+  ],
+  "contacts": [
+    {
+      "id_user": 1,
+      "name": "TUIGHBk",
+      "title": "sdfcsdvfsdfvfds",
+      "email": "khuongphcps33347@fpt.edu.vn",
+      "message": "dfcsfdfcsdfdsgvsdffvdsfv",
+      "date": "2024-04-05 11:45:54",
+      "id": 2
+    },
+    {
+      "id_user": 1,
+      "name": "sdvdvdvdv",
+      "title": "sadgdsfgsdf",
+      "email": "khuongphcps33347@fpt.edu.vn",
+      "message": "sdgfasfgsfgasfgasfgasfgasg",
+      "date": "2024-05-05 19:58:19",
+      "id": 3
+    }
+  ]
+}

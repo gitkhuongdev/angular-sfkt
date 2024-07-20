@@ -1,0 +1,59 @@
+<section class="vh-100 d-flex align-items-center">
+    <div class="container shadow-lg  overflow-hidden p-0  d-flex  align-items-center">
+        <div class="row p-0">
+            <div class="col-12 col-md-6 col-xl-6">
+                <img src="public/assets/image/something (4).jpg" class="img-fluid border-0 p-0 rounded-0 h-100" alt="">
+            </div>
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                <div class="row ">
+                    <div class="row px-5 mt-3">
+                        <h2 class="mb-3">Forgot Password</h2>
+                        <!-- Form quên mật khẩu -->
+                        <form ng-submit="forgotPassword()">
+                            <!-- Email -->
+                            <div class="col-12 mb-3">
+                                <label for="checkoutBillingEmail" class="form-label">Your Email *</label>
+                                <input type="email" id="checkoutBillingEmail"
+                                    class="form-control form-control-sm rounded-1" placeholder="Email" required
+                                    ng-model="email">
+                                <div id="validationEmail" class="invalid-feedback fz-sm">
+                                    Please enter your email.
+                                </div>
+                            </div>
+
+                            <!-- Password -->
+                            <div class="col-12 mb-3">
+                                <label for="checkoutBillingPassword" class="form-label">New Password *</label>
+                                <input type="password" id="checkoutBillingPassword"
+                                    class="form-control form-control-sm rounded-1" placeholder="New Password" required
+                                    ng-model="password">
+                                <div class="invalid-feedback fz-sm">
+                                    Please enter your new password.
+                                </div>
+                            </div>
+
+                            <!-- Confirm Password -->
+                            <!-- <div class="col-12 mb-3">
+        <label for="checkoutConfirmPassword" class="form-label">Confirm Password *</label>
+        <input type="password" id="checkoutConfirmPassword"
+            class="form-control form-control-sm rounded-1" placeholder="Confirm Password"
+            required ng-model="confirmPassword">
+        <div class="invalid-feedback fz-sm">
+            Passwords do not match.
+        </div>
+    </div> -->
+
+                            <div class="col-12 mb-3">
+                                <button type="submit"
+                                    class="btn p-2 border-0 rounded-0 btn-dark ms-auto w-100">Confirm</button>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</section>

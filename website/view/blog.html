@@ -1,0 +1,87 @@
+
+    <!-- LINK  -->
+    <section class="mt-1 ">
+        <div class="container">
+            <div class="row">
+                <!-- FILTER LIST -->
+                <div class="row align-items-center mb-2 mt-4">
+                    <div class="col-12 col-md">
+
+                        <nav class="mt-1 filter_fz fz-sm" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a class="text-gray-500 link_page "
+                                        href="#!">Home</a>
+                                </li>
+                                <li class="breadcrumb-item active" aria-current="page">
+                                    <a class="text-gray-500 link_page" href="#!blog">Blog</a>
+                                </li>
+
+                            </ol>
+                        </nav>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- BLOG -->
+
+    <section class="py-5">
+        <div class="container">
+            <!-- TITLE -->
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="mb-5 text-center">Our Blog</h3>
+                    <nav class="nav justify-content-center mb-5">
+                        <a href="#" class="nav-link fw-medium active">All</a>
+                        <a href="#" class="nav-link fw-medium">Company</a>
+                        <a href="#" class="nav-link fw-medium">Fashion</a>
+                        <a href="#" class="nav-link fw-medium">Brand</a>
+                        <a href="#" class="nav-link fw-medium">Shop</a>
+                    </nav>
+
+                </div>
+            </div>
+
+            <!-- Main blog -->
+            <div class="row">
+                <div class="col-12 col-md-6" ng-repeat="blog in listBlog">
+                    <div class="card mb-4">
+                        <div class="badge bg-white text-body card-badge">
+                            <time class="text-uppercase" datetime="2024-03-20">{{blog.author}},{{blog.date}}</time>
+                        </div>
+                        <img src="{{blog.image_1}}" class="img-thumbnail border-0 rounded-0" alt="">
+                        <div class="card-body px-0">
+                            <h4 class="fw-medium">{{blog.main_title}}<h4>
+                            <p class="mb-0 text-gray-500 fz-sm">
+                                {{blog.content_1}}
+                            </p>
+                            <a href="#!blogdetail/{{blog.id}}" class="btn fz fw-medium  stretched-link px-0 text-reset">
+                                Read More <i class="fa-solid fa-arrow-right fa-beat"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row justify-content-center mt-5">
+                <div class="col-12 text-center">
+                    <p class="fz-sm text-body-secondary ">Showing 16 of 24 products</p>
+                    <div class="progress mx-auto mb-5" style="max-width: 250px;">
+                        <div class="progress-bar bg-dark" role="progressbar" style="width: 66%" aria-valuenow="66"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+
+                    <!-- Button -->
+                    <button class="btn btn-outline-dark fw-semibold fz-sm p-3 button">
+                        Load more
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+

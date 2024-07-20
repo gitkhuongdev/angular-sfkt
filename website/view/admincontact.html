@@ -1,0 +1,28 @@
+<div class="container py-5">
+    <div class="card-body button" ng-repeat="contact in contacts">
+        <div class="row">
+            <!-- <div class="col-12 col-md-auto">
+                <img style="width: 80px;" src="{{contact.user.image}}"
+                    class="img-thumbnail rounded-circle border-0" alt="...">
+            </div> -->
+            <!-- <div class="col-9"> -->
+            <div class="col-12 col-md">
+                <div class="row">
+
+                    <!-- user -->
+                    <h6 class="fz-sm text-gray-500 fw-normal">{{contact.name}}, {{contact.date}}</h6>
+                </div>
+    
+                <div class="row mt-2 mb-3">
+                    <h4 class="text-black fz">{{contact.title}}</h4>
+                    <p class="fz-sm text-gray-500">{{contact.message}}</p>
+                </div>
+            </div>
+            
+            <button class="btn btn-sm btn-success" ng-click="deleteContact(contact.id)">Checked <i class="fa-solid fa-check"></i></button>
+        </div>
+        
+    
+    
+    </div>
+</div>

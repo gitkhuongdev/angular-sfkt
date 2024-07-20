@@ -1,0 +1,177 @@
+
+<!-- LINK  -->
+<section class="mt-1 ">
+    <div class="container">
+        <div class="row">
+            <!-- FILTER LIST -->
+            <div class="row align-items-center mb-2 mt-4">
+                <div class="col-12 col-md">
+
+                    <nav class="mt-1 filter_fz fz-sm" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a class="text-gray-500 link_page " href="#!">Home</a>
+                            </li>
+                            <li class="breadcrumb-item active" aria-current="page">
+                                <a class="text-gray-500 link_page" href="#!blog">Blog</a>
+                            </li>
+
+                            <li class="breadcrumb-item active" aria-current="page">
+                                <a class="text-gray-500 link_page"
+                                    href="#!blogdetail/{{blog.id}}">{{blog.main_title}}</a>
+                            </li>
+
+
+                        </ol>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<header class="container mt-5">
+    <div class="row text-center">
+        <h3 class="mb-3">{{blog.main_title}}</h3>
+        <p class="mb-0 text-body-secondary fz-sm">By {{blog.author}} / {{blog.date }}</p>
+    </div>
+</header>
+
+
+<!-- IMAGe -->
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <img src="{{blog.image_1}}" class="img-fluid w-100" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Content -->
+
+<section class="py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 text-gray-500">
+                <h5 class="mb-4 text-body">{{blog.title_pra_1}}</h5>
+                <p>
+                    {{blog.content_1}}
+                </p>
+
+                
+
+
+            </div>
+            <!-- image -->
+            <div class="row mt-4">
+                <div class="col-6">
+                    <img class="img-fluid" src="{{blog.image_2}}" alt="">
+                </div>
+
+                <div class="col-6">
+                    <img class="img-fluid" src="{{blog.image_3}}" alt="">
+                </div>
+            </div>
+
+            <!-- content 2 -->
+            <div class="col-12 col-md-10 text-gray-500 mt-5">
+                <h5 class="mb-4 text-body">{{blog.title_pra_2}}</h5>
+                <p>
+                    {{blog.content_2}}
+                </p>
+
+              
+                <div class="blockquote-2 my-4 mx-md-4">
+                    <p class="mb-0 text-black">
+                   " {{blog.motto}} "
+                    </p>
+                </div>
+                <h5 class="mb-4 text-body">{{blog.title_pra_3}}</h5>
+
+                <p>
+                    {{blog.content_3}}
+                </p>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-5">
+        <div class="row mb-4">
+            <div class="col-12 text-center">
+                <a class="btn btn-xs fz-sm  fw-normal text-black me-3 mb-3 border button" href="#">
+                    Community
+                </a>
+                <a class="btn btn-xs fz-sm  fw-normal text-black me-3 mb-3 border button" href="#">
+                    Business
+                </a>
+                <a class="btn btn-xs fz-sm  fw-normal text-black me-3 mb-3 border button" href="#">
+                    Fashion
+                </a>
+                <a class="btn btn-xs fz-sm  fw-normal text-black me-3 mb-3 border button" href="#">
+                    Marketing
+                </a>
+                <a class="btn btn-xs fz-sm  fw-normal text-black me-3 mb-3 border button" href="#">
+                    Teamwork
+                </a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 text-center">
+                <a href="#" class="btn button border btn-facebook me-3 mb-3">
+                    <i class="fa-brands fa-facebook-f"></i> Share on Facebook
+                </a>
+
+                <a href="#" class="btn button border btn-twitter me-3 mb-3">
+                    <i class="fa-brands fa-x-twitter"></i> Share on Twitter
+                </a>
+
+                <a href="#" class="btn button border btn-pinterest me-3 mb-3">
+                    <i class="fa-brands fa-pinterest-p"></i> Share on Pinterest
+                </a>
+
+                <a href="#" class="btn button border btn-linkedin me-3 mb-3">
+                    <i class="fa-brands fa-linkedin-in"></i> Share on Linkedin
+                </a>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container py-5">
+        <div class="row align-items-center mb-5">
+            <div class="col-12 mb-4">
+                <h4 class="mb-4 mb-sm-0 text-center">Latest in Blog</h4>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-4" ng-repeat=" blog in listBlog | limitTo:3">
+                    <div class="card mb-4 mb-md-0">
+                        <div class="badge bg-white text-body card-badge">
+                            <time class="text-uppercase" datetime="2024-03-20">{{blog.date}}</time>
+                        </div>
+                        <img src="{{blog.image_1}}" class="img-thumbnail border-0 rounded-0" alt="">
+                        <div class="card-body px-0">
+                            <h4 class="fw-medium">{{blog.title_pra_1}}</h4>
+                            <p class="mb-0 text-gray-500 fz-sm">
+                                {{blog.content_1}}
+                            </p>
+                            <a href="#!blogdetail/{{blog.id}}" class="btn fz fw-medium  stretched-link px-0 text-reset">
+                                Read More <i class="fa-solid fa-arrow-right fa-beat"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>

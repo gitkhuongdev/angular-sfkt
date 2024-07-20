@@ -1,0 +1,109 @@
+
+    <!-- LINK  -->
+    <section class="mt-1 ">
+        <div class="container">
+            <div class="row">
+                <!-- FILTER LIST -->
+                <div class="row align-items-center mb-2 mt-4">
+                    <div class="col-12 col-md">
+
+                        <nav class="mt-1 filter_fz fz-sm" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a class="text-gray-500 link_page "
+                                        href="#!">Home</a>
+                                </li>
+                                <li class="breadcrumb-item active" aria-current="page">
+                                    <a class="text-gray-500 link_page" href="#!wishlist">My Account</a>
+                                </li>
+                            </ol>
+                        </nav>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pb-5">
+        <div class="container">
+            <!-- Title -->
+            <div class="row">
+                <div class="col">
+                    <h3 class="mb-4 text-center">My Account</h3>
+                </div>
+            </div>
+            <!-- List manager account -->
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <nav class="mb-5 mb-md-0">
+                        <div
+                            class="list-group list-group-sm list-group-strong list-group-flush border border-start-0 border-end-0 border-top-0 ">
+                            <a href="#!order"
+                                class="list-group-item list-group-item-action dropend-toggle p-3 d-flex justify-content-between align-items-center ">Orders
+                                <i class="fa-solid fa-angle-right"></i></a>
+
+                            <a href="#!wishlist"
+                                class="list-group-item list-group-item-action dropend-toggle p-3 d-flex justify-content-between align-items-center ">Wishlist
+                                <i class="fa-solid fa-angle-right"></i></a>
+
+                            <a href="#!infor"
+                                class="list-group-item list-group-item-action dropend-toggle p-3 d-flex justify-content-between align-items-center fw-medium">Personal
+                                Infor
+                                <i class="fa-solid fa-angle-right"></i></a>
+
+                            <a href="#!payment"
+                                class="list-group-item list-group-item-action dropend-toggle p-3 d-flex justify-content-between align-items-center">Payment
+                                Methods
+                                <i class="fa-solid fa-angle-right"></i></a>
+
+
+                                <a href="javascript:void(0)" ng-show="user" ng-click="logout()"
+                                class="list-group-item list-group-item-action dropend-toggle p-3 d-flex justify-content-between align-items-center">Log
+                                out
+                                <i class="fa-solid fa-angle-right"></i></a>
+                        </div>
+                    </nav>
+                </div>
+
+                <div class="col-12 col-md-9 col-lg-8 offset-lg-1">
+
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <div class="card card-lg bg-light mb-4">
+                                <div class="card-body">
+                                    <h6 class="mb-3">Debit / Credit Card</h6>
+                                    <p class="mb-3">
+                                        <h5 class="fz fw-medium">Card Number:</h5>
+                                        
+                                        <span class="text-body-secondary fz-sm">4242 ∙∙∙∙ ∙∙∙∙ 7856 (Mastercard)</span>
+                                    </p>
+
+                                    <p class="mb-3">
+                                        <h5 class="fz fw-medium">Expiry Date:</h5>
+                                        
+                                        <span class="text-body-secondary fz-sm">Feb 2022</span>
+                                    </p>
+
+                                    <p class="mb0">
+                                        <h5 class="fz fw-medium">Name on Card:</h5>
+                                        
+                                        <span class="text-body-secondary fz-sm">Daniel Robinson</span>
+                                    </p>
+
+                                    <div class="card-action card-action-end">
+                                        <a href="#" class="btn btn-xs btn-circle btn-white-primary"><i class="fa-solid fa-pencil"></i></a>
+                                        <button class="btn btn-xs btn-circle btn-white-primary"><i class="fa-solid fa-xmark"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <a href="#" class="btn w-100 btn-lg btn-dark border ">
+                                Add Payment Method <i class="fa-solid fa-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

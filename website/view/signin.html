@@ -1,0 +1,132 @@
+<section class="vh-100 d-flex align-items-center">
+    <div class="container shadow-lg overflow-hidden p-0 d-flex align-items-center">
+        <div class="row p-0">
+            <div class="col-12 col-md-6 col-xl-6">
+                <img src="public/assets/image/something (6).jpg" class="img-fluid border-0 p-0 rounded-0 h-100" alt="">
+            </div>
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                <div class="row">
+                    <div class="row px-5 py-5">
+                        <h2 class="mb-3">Sign in</h2>
+
+                        <form name="formSignIn" ng-submit="signIn()" novalidate>
+                            <div class="row mb-2">
+                                <!-- First name -->
+                                <div class="col-12 col-md-6">
+                                    <div class="form-group">
+                                        <label for="firstname" class="form-label">First Name *</label>
+                                        <input type="text" id="firstname" name="firstname"
+                                            class="form-control form-control-sm p-2 rounded-2" placeholder="First Name"
+                                            required ng-model="firstname">
+                                        <div class="text-danger fz-sm"
+                                            ng-show="formSignIn.firstname.$invalid && formSignIn.firstname.$dirty">
+                                            Please provide a first name.
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Last Name -->
+                                <div class="col-12 col-md-6 mb-3">
+                                    <div class="form-group">
+                                        <label for="lastname" class="form-label">Last Name *</label>
+                                        <input type="text" id="lastname" name="lastname"
+                                            class="form-control form-control-sm p-2 rounded-2" placeholder="Last Name"
+                                            required ng-model="lastname">
+                                        <div class="text-danger fz-sm"
+                                            ng-show="formSignIn.lastname.$invalid && formSignIn.lastname.$dirty">
+                                            Please provide a last name.
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Email -->
+                                <div class="col-12 mb-3">
+                                    <div class="form-group">
+                                        <label for="email" class="form-label">Email *</label>
+                                        <input type="email" id="email" name="email"
+                                            class="form-control form-control-sm p-2 rounded-2" placeholder="Email"
+                                            required ng-model="email">
+                                        <div class="text-danger fz-sm"
+                                            ng-show="formSignIn.email.$invalid && formSignIn.email.$dirty">
+                                            Please provide a valid email address.
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Address -->
+                                <div class="col-12 mb-3">
+                                    <div class="form-group">
+                                        <label for="address" class="form-label">Address *</label>
+                                        <input type="text" id="address" name="address"
+                                            class="form-control form-control-sm p-2 rounded-2" placeholder="Address"
+                                            required ng-model="address">
+                                        <div class="text-danger fz-sm"
+                                            ng-show="formSignIn.address.$invalid && formSignIn.address.$dirty">
+                                            Please provide your address.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Password -->
+                                <div class="col-12 col-md-6 mb-3">
+                                    <div class="form-group">
+                                        <label for="password" class="form-label">Password *</label>
+                                        <input type="password" id="password" name="password"
+                                            class="form-control form-control-sm p-2 rounded-2" placeholder="Password"
+                                            required ng-model="password">
+                                        <div class="text-danger fz-sm"
+                                            ng-show="formSignIn.password.$invalid && formSignIn.password.$dirty">
+                                            Please provide your password.
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Confirm Password -->
+                                <div class="col-12 col-md-6">
+                                    <div class="form-group">
+                                        <label for="password" class="form-label">Confirm Password *</label>
+                                        <input type="password" id="password" name="password"
+                                            class="form-control form-control-sm p-2 rounded-2"
+                                            placeholder="Confirm Password" required ng-model="password"
+                                            ng-minlength="6"
+                                            ng-pattern="/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{6,}$/">
+                                        <div class="text-danger fz-sm"
+                                            ng-show="formSignIn.password.$invalid && formSignIn.password.$dirty">
+                                            Password must be at least 6 characters long and contain at least one number,
+                                            one lowercase and one uppercase letter.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Phone -->
+                                <div class="col-12 mb-3">
+                                    <div class="form-group">
+                                        <label for="phone" class="form-label">Mobile Phone *</label>
+                                        <input type="text" id="phone" name="phone"
+                                            class="form-control form-control-sm p-2 rounded-2"
+                                            placeholder="Mobile Phone" required ng-model="phone"
+                                            ng-pattern="/^\d{10}$/">
+                                        <div class="text-danger fz-sm"
+                                            ng-show="formSignIn.phone.$invalid && formSignIn.phone.$dirty">
+                                            Please provide a valid 10-digit phone number.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 mb-3">
+                                <button type="submit" class="btn p-2 border-0 rounded-0 btn-dark ms-auto w-100"
+                                    ng-disabled="formSignIn.$invalid">Sign in</button>
+                            </div>
+
+                            <div class="mt-5 d-flex justify-content-center fz-sm">
+                                <span class="text-gray-400">Already have an account? <a href="#!login"
+                                        class="text-warning">Log in</a></span>
+                            </div>
+                        </form>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</section>

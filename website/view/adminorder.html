@@ -1,0 +1,40 @@
+<div class="container">
+    <h3 class="fw-bold fs-4 my-3">List Orders
+    </h3>
+    <div class="row">
+        <div class="col-12 table-responsive">
+            <table class="table table-striped ">
+                <thead>
+                    <tr class="highlight text-center">
+                        <th scope="col">Numerical order</th>
+                        <th scope="col">Price</th>
+                        <th scope="col">Quantity</th>
+                        <th scope="col">Image</th>
+                        <th scope="col">Action</th>
+                    </tr>
+                </thead>
+                <tbody class="text-center" ng-repeat="order in listOrders | limitTo:limit">
+                    <tr>
+                        <th>{{order.id}}</th>
+                        <td>{{order.total | currency : '$' : 0}}</td>
+                        <td>{{order.products[0].quantity}}</td>
+                        <td>
+                            <img class="img-fluid" style="width: 120px;" src="{{order.products[0].image_1}}" alt="">
+                        </td>
+                        <td>
+                            <a href="#!updateorder/{{order.id}}" class="btn btn-warning">Edit</a>
+                        </td>
+                    </tr>
+    
+                </tbody>
+    
+            </table>
+            <nav class="d-flex justify-content-center" ng-show="limit < listOrders.length">
+                <button class="btn btn-sm btn-dark button" ng-click="limit = limit + 10">Seemore</button>
+            </nav>
+            <nav class="d-flex justify-content-center" ng-show="limit > listOrders.length">
+                <button class="btn btn-sm btn-dark button" ng-click="limit = 10">Hide Less</button>
+            </nav>
+        </div>
+    </div>
+</div>

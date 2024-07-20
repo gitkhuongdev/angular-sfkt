@@ -1,0 +1,229 @@
+<!-- LINK  -->
+<section class="mt-1 ">
+    <div class="container">
+        <div class="row">
+            <!-- FILTER LIST -->
+            <div class="row align-items-center mb-2 mt-4">
+                <div class="col-12 col-md">
+
+                    <nav class="mt-1 filter_fz fz-sm" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a class="text-gray-500 link_page " href="#!">Home</a>
+                            </li>
+                            <li class="breadcrumb-item active" aria-current="page">
+                                <a class="text-gray-500 link_page" href="#!cart">Shopping Cart</a>
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pb-5">
+    <div class="container">
+        <!-- Title -->
+        <div class="row py-5">
+            <div class="col">
+                <h3 class="mb-4 text-center">Shopping Cart</h3>
+            </div>
+        </div>
+
+        <!-- Cart -->
+
+        <div class="row" ng-hide="!user">
+            <div class="col-12 col-md-7">
+                <div class="d-flex justify-content-end ">
+                    <a href="#!products" class="fs-xs text-gray-400 ms-auto link_hover fz-sm remove"
+                        ng-click="clearCart()">
+                        <i class="fa-solid fa-xmark"></i> Remove All
+                    </a>
+                </div>
+                <div class="list-group list-group-flush list-group-lg  mb-3">
+                    <div class="list-group-item my-4 mb-3">
+                        <div ng-if="cart.length > 0">
+                            <div class="row align-items-center mb-5" ng-repeat="product in cart track by product.id">
+                                <div class="col-3">
+                                    <a href="#!detail/{{product.id}}">
+                                        <img src="{{product.image_1}}" style="width: 160px; height: 160px;"
+                                            class="img-fluid object-fit-cover" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="col">
+                                    <div class="d-flex mb-2 fw-normal">
+                                        <a href="#!detail/{{product.id}}" class="text-body w-75">{{product.name}}</a>
+                                        <span class="ms-auto text-gray-500 fw-normal">{{
+                                            calculateTotalForProduct(product) |
+                                            currency:'$':0 }}</span>
+                                    </div>
+                                    <p class="mb-3 text-body-secondary">
+                                        Size: M
+                                        <br>
+                                        Color: Red
+                                    </p>
+
+                                    <div class="d-flex align-items-center">
+                                        <input ng-model="product.quantity" type="number" min="1" max="100"
+                                            class="button p-2" ng-change="updateQuantity(product)">
+
+                                        <a href="javascript:void(0)"
+                                            class="fs-xs text-gray-400 ms-auto link_hover fz-sm remove"
+                                            ng-click="removeFromCart(product.id)">
+                                            <i class="fa-solid fa-xmark"></i> Remove
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div ng-show="user" ng-if="cart.length == 0">
+                            <p>Your shopping cart is empty ready to <a href="#!products" class="text-danger">Buy now</a></p>
+                        </div>
+
+                    </div>
+                    
+                
+                <!-- 
+                    <div class="list-group list-group-flush list-group-lg  mb-3">
+                        <div class="list-group-item my-4">
+                            <div class="row align-items-center">
+                                <div class="col-3">
+                                    <a href="#!detail">
+                                        <img src="public/assets/image/something (7).jpg" class="img-fluid" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="col">
+                                    <div class="d-flex mb-2 fw-normal">
+                                        <a href="#!detail" class="text-body">Cotton floral</a>
+                                        <span class="ms-auto text-gray-500 fw-normal">$80.00</span>
+                                    </div>
+                                    <p class="mb-3 text-body-secondary">
+                                        Size: M
+                                        <br>
+                                        Color: Green
+                                    </p>
+
+                                    <div class="d-flex align-items-center">
+                                        <input type="number" aria-label="quantity" value="0" min="1" max="100"
+                                            class="button p-2">
+
+                                        <a href="#" class="fs-xs text-gray-400 ms-auto link_hover fz-sm">
+                                            <i class="fa-solid fa-xmark"></i> Remove
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+
+
+                <div class="row align-items-end justify-content-between mb-5 mb-md-0">
+                    <div class="col-12 col-md-7">
+                        <form action="" class="mb-7 mb-md-0">
+                            <label for="cartCouponCode" class="form-label fz fw-semibold">Coupon Code:</label>
+                            <div class="row row gx-5">
+                                <div class="col">
+                                    <input type="text" class="form-control form-control-sm" id="cartCouponCode"
+                                        placeholder="Enter Your Coupon *">
+                                </div>
+
+                                <div class="col-auto">
+                                    <button type="submit" class="btn btn-sm btn-dark button">Apply</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+            <div class="col-12 col-md-5 col-lg-4 offset-lg-1">
+                <div class="card mb-4 bg-light button">
+                    <div class="card-body">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item d-flex bg-light text-black mt-3">
+                                <span>Subtotal</span>
+                                <span class="ms-auto fz mb-3">{{ calculateTotalPrice() | currency:'$':2 }}</span>
+                            </li>
+                            <li class="list-group-item d-flex bg-light text-black mt-3">
+                                <span>Tax</span>
+                                <span class="ms-auto fz mb-3">$00.00</span>
+                            </li>
+
+                            <li class="list-group-item d-flex bg-light text-black mt-3">
+                                <span class="fz fw-semibold ">Total</span>
+                                <span class="ms-auto fz mb-3">{{ calculateTotalPrice() | currency:'$':2}}</span>
+                            </li>
+                            <li class="list-group-item d-flex bg-light text-black mt-3 text-center">
+                                <span class="fz-sm text-gray-500 ">Shipping cost calculated at Checkout *</span>
+
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <a href="#!checkout" class="btn button mt-4 p-3 w-100 btn-dark mb-2">
+                    Proceed to Checkout
+                </a>
+
+                <a href="#!products" class="btn btn-sm px-2 fw-medium  text-body link_hover"><i
+                        class="fa-solid fa-arrow-left-long"></i> Continue Shopping </a>
+            </div>
+        </div>
+
+        <div ng-show="!user" class="d-flex justify-content-center py-5 fz-lg fw-semibold">
+            <p><i class="fa-solid fa-cart-shopping"></i> You need to <a href="#!login" class="text-danger">Login</a> to shopping </p>
+        </div>
+    </div>
+</section>
+
+<!-- Near Footer -->
+<section class="bg-light py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="d-flex mb-6 mb-lg-0 gap-2">
+                    <i class="fa-solid fa-truck text-danger"></i>
+                    <div class="ms-6">
+                        <h6 class="heading-xxs mb-1 text-black fz-sm">FREE SHIPPING</h6>
+                        <p class="mb-0 fs-sm text-body-secondary fz-sm">From all orders over $100</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="d-flex mb-6 mb-lg-0 gap-2">
+                    <i class="fa-solid fa-retweet text-danger"></i>
+                    <div class="ms-6">
+                        <h6 class="heading-xxs mb-1 text-black fz-sm">FREE RETURN</h6>
+                        <p class="mb-0 fs-sm text-body-secondary fz-sm">Return money within 30 days</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="d-flex mb-6 mb-lg-0 gap-2">
+                    <i class="fa-solid fa-lock text-danger"></i>
+                    <div class="ms-6">
+                        <h6 class="heading-xxs mb-1 text-black fz-sm">SECURE SHOPPING</h6>
+                        <p class="mb-0 fs-sm text-body-secondary fz-sm">You're in safe hands</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="d-flex mb-6 mb-lg-0 gap-2">
+                    <i class="fa-solid fa-tags text-danger"></i>
+                    <div class="ms-6">
+                        <h6 class="heading-xxs mb-1 text-black fz-sm">OVER 10,000 STYLES</h6>
+                        <p class="mb-0 fs-sm text-body-secondary fz-sm">We have everything you need</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,308 @@
+<!-- LINK  -->
+<section class="mt-1 ">
+    <div class="container">
+        <div class="row">
+            <!-- FILTER LIST -->
+            <div class="row align-items-center mb-2 mt-4">
+                <div class="col-12 col-md">
+
+                    <nav class="mt-1 filter_fz fz-sm" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a class="text-gray-500 link_page " href="#!">Home</a>
+                            </li>
+                            <li class="breadcrumb-item active" aria-current="page">
+                                <a class="text-gray-500 link_page" href="#!order">My Account</a>
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pb-5">
+    <div class="container">
+        <!-- Title -->
+        <div class="row">
+            <div class="col">
+                <h3 class="mb-4 text-center">My Account</h3>
+            </div>
+        </div>
+        <!-- List manager account -->
+        <div class="row">
+            <div class="col-12 col-md-3">
+                <nav class="mb-5 mb-md-0">
+                    <div
+                        class="list-group list-group-sm list-group-strong list-group-flush border border-start-0 border-end-0 border-top-0 ">
+                        <a href="#!order"
+                            class="list-group-item list-group-item-action dropend-toggle p-3 d-flex justify-content-between align-items-center ">Orders
+                            <i class="fa-solid fa-angle-right"></i></a>
+
+                        <a href="#!wishlist"
+                            class="list-group-item list-group-item-action dropend-toggle p-3 d-flex justify-content-between align-items-center ">Wishlist
+                            <i class="fa-solid fa-angle-right"></i></a>
+
+                        <a href="#!infor"
+                            class="list-group-item list-group-item-action dropend-toggle p-3 d-flex justify-content-between align-items-center fw-medium">Personal
+                            Infor
+                            <i class="fa-solid fa-angle-right"></i></a>
+
+                        <a href="#!payment"
+                            class="list-group-item list-group-item-action dropend-toggle p-3 d-flex justify-content-between align-items-center">Payment
+                            Methods
+                            <i class="fa-solid fa-angle-right"></i></a>
+
+
+                        <a href="javascript:void(0)" ng-show="user" ng-click="logout()"
+                            class="list-group-item list-group-item-action dropend-toggle p-3 d-flex justify-content-between align-items-center">Log
+                            out
+                            <i class="fa-solid fa-angle-right"></i></a>
+                    </div>
+                </nav>
+            </div>
+
+
+
+            <div class="col-12 col-md-9 col-lg-8 offset-lg-1">
+                <div class="card card-lg mb-5 border rounded-0"
+                    ng-repeat="order in orderList |  orderByUserId: user | limitTo:limit">
+                    <div class="card-body pb-0">
+                        <div class="card card-sm">
+                            <div class="card-body bg-light">
+                                <div class="row">
+                                    <div class="col-6 col-lg-3">
+                                        <h6 class="text-body-secondary fz-sm">ORDER NO</h6>
+                                        <p class="mb-lg-0 fw-normal fz">{{order.id}}</p>
+                                    </div>
+
+                                    <div class="col-6 col-lg-3">
+                                        <h6 class="text-body-secondary fz-sm">SHIPPED DATE:</h6>
+                                        <p class="mb-lg-0 fw-normal fz">{{order.date | date}}</p>
+                                    </div>
+
+                                    <div class="col-6 col-lg-3">
+                                        <h6 class="text-body-secondary fz-sm">STATUS:</h6>
+                                        <p class="mb-lg-0 fw-normal fz">{{order.status}}</p>
+                                    </div>
+
+                                    <div class="col-6 col-lg-3">
+                                        <h6 class="text-body-secondary fz-sm">ORDER AMOUNT:</h6>
+                                        <p class="mb-lg-0 fw-normal fz">{{order.total | currency: '$'}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="button border-0">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-lg-6">
+                                <div class="row gx-5 mb-2 mb-lg-0">
+                                    <div class="col-3">
+                                        <img src="{{ order.products[0].image_1 }}" style="width: 90px; height: 90px;"
+                                            class="img-fluid object-fit-cover" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-lg-6">
+                                <div class="row gx-5">
+                                    <div class="col-6">
+                                        <a href="#" class="btn w-75 btn-outline-dark p-2 rounded-0 fz-sm">Order
+                                            Details</a>
+                                    </div>
+
+                                    <div class="col-6">
+                                        <a href="#" class="btn w-75 btn-outline-dark p-2 rounded-0 fz-sm">Track
+                                            Order</a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <!-- 
+                    <div class="card card-lg mb-5 border rounded-0">
+                        <div class="card-body pb-0">
+                            <div class="card card-sm">
+                                <div class="card-body bg-light">
+                                    <div class="row">
+                                        <div class="col-6 col-lg-3">
+                                            <h6 class="text-body-secondary fz-sm">ORDER NO</h6>
+                                            <p class="mb-lg-0 fw-normal fz">673290789</p>
+                                        </div>
+
+                                        <div class="col-6 col-lg-3">
+                                            <h6 class="text-body-secondary fz-sm">SHIPPED DATE:</h6>
+                                            <p class="mb-lg-0 fw-normal fz">01 Jan, 2024</p>
+                                        </div>
+
+                                        <div class="col-6 col-lg-3">
+                                            <h6 class="text-body-secondary fz-sm">STATUS:</h6>
+                                            <p class="mb-lg-0 fw-normal fz">Awating Delivery</p>
+                                        </div>
+
+                                        <div class="col-6 col-lg-3">
+                                            <h6 class="text-body-secondary fz-sm">ORDER AMOUNT:</h6>
+                                            <p class="mb-lg-0 fw-normal fz">{{order.total}}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="button border-0">
+                            <div class="row align-items-center">
+                                <div class="col-12 col-lg-6">
+                                    <div class="row gx-5 mb-2 mb-lg-0">
+                                        <div class="col-3">
+                                            <img src="assets/image/product-123.jpg" class="img-fluid" alt="">
+                                        </div>
+
+                                        <div class="col-3">
+                                            <img src="assets/image/product-121.jpg" class="img-fluid" alt="">
+                                        </div>
+
+                                        <div class="col-3">
+                                            <img src="assets/image/product-12.jpg" class="img-fluid" alt="">
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-lg-6">
+                                    <div class="row gx-5">
+                                        <div class="col-6">
+                                            <a href="#" class="btn w-75 btn-outline-dark p-2 rounded-0 fz-sm">Order
+                                                Details</a>
+                                        </div>
+
+                                        <div class="col-6">
+                                            <a href="#" class="btn w-75 btn-outline-dark p-2 rounded-0 fz-sm">Track
+                                                Order</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card card-lg mb-5 border rounded-0">
+                        <div class="card-body pb-0">
+                            <div class="card card-sm">
+                                <div class="card-body bg-light">
+                                    <div class="row">
+                                        <div class="col-6 col-lg-3">
+                                            <h6 class="text-body-secondary fz-sm">ORDER NO</h6>
+                                            <p class="mb-lg-0 fw-normal fz">673290789</p>
+                                        </div>
+
+                                        <div class="col-6 col-lg-3">
+                                            <h6 class="text-body-secondary fz-sm">SHIPPED DATE:</h6>
+                                            <p class="mb-lg-0 fw-normal fz">01 Jan, 2024</p>
+                                        </div>
+
+                                        <div class="col-6 col-lg-3">
+                                            <h6 class="text-body-secondary fz-sm">STATUS:</h6>
+                                            <p class="mb-lg-0 fw-normal fz">Awating Delivery</p>
+                                        </div>
+
+                                        <div class="col-6 col-lg-3">
+                                            <h6 class="text-body-secondary fz-sm">ORDER AMOUNT:</h6>
+                                            <p class="mb-lg-0 fw-normal fz">$259.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="button border-0">
+                            <div class="row align-items-center">
+                                <div class="col-12 col-lg-6">
+                                    <div class="row gx-5 mb-2 mb-lg-0">
+                                        <div class="col-3">
+                                            <img src="assets/image/product-7.jpg" class="img-fluid" alt="">
+                                        </div>
+
+                                        <div class="col-3">
+                                            <img src="assets/image/product-8.jpg" class="img-fluid" alt="">
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-12 col-lg-6">
+                                    <div class="row gx-5">
+                                        <div class="col-6">
+                                            <a href="#" class="btn w-75 btn-outline-dark p-2 rounded-0 fz-sm">Order
+                                                Details</a>
+                                        </div>
+
+                                        <div class="col-6">
+                                            <a href="#" class="btn w-75 btn-outline-dark p-2 rounded-0 fz-sm">Track
+                                                Order</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div> -->
+                <nav class="d-flex justify-content-center" ng-show="limit < orderList.length">
+                    <button class="btn btn-sm btn-dark button" ng-click="limit = limit + 3">Seemore</button>
+                </nav>
+                <nav class="d-flex justify-content-center" ng-show="limit == orderList.length">
+                    <button class="btn btn-sm btn-dark button" ng-click="limit = 3">Hide Less</button>
+                </nav>
+            </div>
+        </div>
+        <!-- 
+            <div class="row pt-5">
+                PAGINATION 
+                <nav class="d-flex justify-content-center">
+                    <ul class="pagination pagination-sm text-gray-400 ">
+                        <li class="page-item">
+                            <a class="page-link page-link-arrow" href="#">
+                                <i class="fa fa-caret-left"></i>
+                            </a>
+                        </li>
+
+                        <li class="page-item active">
+                            <a class="page-link" href="#">1</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">2</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">3</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">4</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">5</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">6</a>
+                        </li>
+
+                        <li class="page-item">
+                            <a class="page-link page-link-arrow" href="#">
+                                <i class="fa fa-caret-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div> -->
+    </div>
+</section>

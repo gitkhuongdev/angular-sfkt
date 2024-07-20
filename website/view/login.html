@@ -1,0 +1,72 @@
+<section class="vh-100 d-flex align-items-center">
+    <div class="container shadow-lg  overflow-hidden p-0  d-flex  align-items-center">
+        <div class="row p-0">
+            <div class="col-12 col-md-6 col-xl-6">
+                <img src="public/assets/image/something (7).jpg" class="img-fluid border-0 p-0 rounded-0 h-100" alt="">
+            </div>
+
+            <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                <div class="row ">
+                    <div class="row px-5 mt-3 ">
+
+                        <div class="d-flex" ng-show="isError">
+
+                            <div class="alert alert-danger" role="alert">
+                                Email and password are incorrect!
+                            </div>
+                        </div>
+                        <h2 class="mb-3">Login</h2>
+
+                        <form name="formLogin" ng-submit="login()" novalidate>
+                            <!-- Email -->
+                            <div class="col-12 mb-3">
+                                <label for="email" class="form-label">Email *</label>
+                                <input type="email" id="email" name="email" class="form-control form-control-sm rounded-1"
+                                    placeholder="Email" ng-model="email" required>
+                        
+                                <div class="fz-sm text-danger" ng-show="formLogin.email.$invalid && formLogin.email.$dirty">
+                                    Please enter a valid email.
+                                </div>
+                            </div>
+                        
+                            <!-- Password -->
+                            <div class="col-12 mb-3">
+                                <label for="password" class="form-label">Password *</label>
+                                <input type="password" id="password" name="password" class="form-control form-control-sm rounded-1"
+                                    placeholder="Password" ng-model="password" required>
+                        
+                                <div class="invalid-feedback fz-sm" ng-show="formLogin.password.$invalid && formLogin.password.$dirty">
+                                    Please enter your password.
+                                </div>
+                            </div>
+                        
+                            <div class="col-12 mb-3">
+                                <button type="submit" class="btn p-2 border-0 rounded-0 btn-dark ms-auto w-100"
+                                    ng-disabled="formLogin.$invalid">Login</button>
+                            </div>
+                        
+                            <div class="d-flex align-item-center">
+                                <div class="fz-sm">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <span class="pl-3 text-gray-500"> Remember your password ?</span>
+                                </div>
+                        
+                                <a class="ms-auto fz-sm text-reset " href="#!forgot">Forgot Password</a>
+                            </div>
+                            <div class="mt-5 d-flex justify-content-center fz-sm">
+                                <span class="text-gray-400">Don't have an account? <a href="#!signin" class="text-warning">Sign
+                                        in</a></span>
+                            </div>
+                        </form>
+                        
+
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</section>

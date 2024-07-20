@@ -1,0 +1,124 @@
+<nav class="navbar navbar-expand px-4 py-3">
+    <form action="#" class="d-none d-sm-inline-block">
+
+    </form>
+    <div class="navbar-collapse collapse">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+                <a href="#" data-bs-toggle="dropdown" class="nav-icon pe-md-0">
+                    <img src="public/assets/image/something (6).jpg" class="avatar img-fluid" alt="">
+                </a>
+                <div class="dropdown-menu dropdown-menu-end rounded">
+
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+<main class="content px-3 py-4">
+    <div class="container-fluid">
+        <div class="mb-3">
+
+
+            <!-- FORM CONTACT -->
+            <form ng-submit="addProducts()">
+
+                <div class="col-12 ">
+                    <div class="form-group mb-4">
+                        <select class="form-select form-control fz-sm text-opacity-25" aria-label="Default select example" ng-model="selectedCategory" ng-options="category.id as category.name for category in categories">
+                            <option value="">Select Category</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group mb-4">
+                        <label for="name">Product Name *</label>
+                        <input type="text" name="" class="form-control " id="" placeholder="Product Name *" ng-model="name" required>
+                    </div>
+
+                    <div class="form-group mb-4">
+                        <label for="name">Price *</label>
+                        <input type="number" name="" class="form-control " id="" placeholder="Price *" ng-model="price" required>
+                    </div>
+
+                    <div class="form-group mb-4">
+                        <label for="name">Sale *</label>
+                        <input type="number" name="" class="form-control " id="" placeholder="Sale *" ng-model="sale" required>
+                    </div>
+
+                    <div class="form-group mb-4">
+                        <label for="name">Link image-1 *</label>
+                        <input type="text" name="" class="form-control " id="" placeholder="Link image-1 *" ng-model="image_1" required>
+                    </div>
+
+                    <div class="form-group mb-4">
+                        <label for="name">Link image-2 *</label>
+                        <input type="text" name="" class="form-control " id="" placeholder="Link image-2 *" ng-model="image_2" required>
+                    </div>
+
+                    <div class="form-group mb-4">
+                        <label for="name">Link image-3 *</label>
+                        <input type="text" name="" class="form-control " id="" placeholder="Link image-3 *" ng-model="image_3" required>
+                    </div>
+
+
+
+                    <div class="form-group mb-4">
+                        <label for="name">Quantity *</label>
+                        <input type="number" name="" class="form-control " id="" placeholder="Quantity *" ng-model="quantity" required>
+                    </div>
+
+                    <div class="form-group mb-4">
+                        <label for="name">Description *</label>
+                        <textarea type="text" name="" class="form-control pb-5" id=""
+                            placeholder="Description *" ng-model="description" required>
+                        </textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-outline-dark button text-bg-dark btn-dark">Add product</button>
+
+                </div>
+            </form>
+
+            <h3 class="fw-bold fs-4 my-3">List Products
+            </h3>
+            <div class="row">
+                <div class="col-12 table-responsive">
+                    <table class="table table-striped ">
+                        <thead>
+                            <tr class="highlight text-center">
+                                <th scope="col">Numerical order</th>
+                                <th scope="col" style="width: 200px;">Name</th>
+                                <th scope="col">Price</th>
+                                <th scope="col">Quantity</th>
+                                <th scope="col">Image</th>
+                                <th scope="col">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center" ng-repeat="productAdmin in productsAdmin | limitTo:limit">
+                            <tr>
+                                <th>{{$index+1}}</th>
+                                <td>{{productAdmin.name}}</td>
+                                <td>{{productAdmin.price | currency : '$' : 0}}</td>
+                                <td>{{productAdmin.quantity}}</td>
+                                <td><img class="img-fluid object-fit-cover" style="width: 100px; height: 100px;" src="{{productAdmin.image_1}}" alt="">
+                                </td>
+                                <td>
+                                    <a href="#!updateproduct/{{productAdmin.id}}" class="btn btn-warning">Edit</a>
+                                    <button ng-click="deleteProduct(productAdmin.id)" type="button" class="btn btn-danger">Delete</button>
+                                </td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+                    <nav class="d-flex justify-content-center" ng-show="limit < productsAdmin.length">
+                        <button class="btn btn-sm btn-dark button" ng-click="limit = limit + 10">Seemore</button>
+                    </nav>
+                    <nav class="d-flex justify-content-center" ng-show="limit > productsAdmin.length">
+                        <button class="btn btn-sm btn-dark button" ng-click="limit = 10">Hide Less</button>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

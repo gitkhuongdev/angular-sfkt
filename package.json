@@ -1,0 +1,21 @@
+{
+  "name": "sfkt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Angular"
+  ],
+  "author": "khuongph",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.4",
+    "nodemon": "^3.1.0"
+  }
+}
+
+

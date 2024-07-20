@@ -1,0 +1,140 @@
+<!-- LINK  -->
+<section class="mt-1 ">
+    <div class="container">
+        <div class="row">
+            <!-- FILTER LIST -->
+            <div class="row align-items-center mb-2 mt-4">
+                <div class="col-12 col-md">
+
+                    <nav class="mt-1 filter_fz fz-sm" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a class="text-gray-500 link_page " href="#!">Home</a>
+                            </li>
+                            <li class="breadcrumb-item active" aria-current="page">
+                                <a class="text-gray-500 link_page" href="#!wishlist">My Account</a>
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pb-5">
+    <div class="container">
+        <!-- Title -->
+        <div class="row">
+            <div class="col">
+                <h3 class="mb-4 text-center">My Account</h3>
+            </div>
+        </div>
+        <!-- List manager account -->
+        <div class="row">
+            <div class="col-12 col-md-3">
+                <nav class="mb-5 mb-md-0">
+                    <div
+                        class="list-group list-group-sm list-group-strong list-group-flush border border-start-0 border-end-0 border-top-0 ">
+                        <a href="#!order"
+                            class="list-group-item list-group-item-action dropend-toggle p-3 d-flex justify-content-between align-items-center ">Orders
+                            <i class="fa-solid fa-angle-right"></i></a>
+
+                        <a href="#!wishlist"
+                            class="list-group-item list-group-item-action dropend-toggle p-3 d-flex justify-content-between align-items-center ">Wishlist
+                            <i class="fa-solid fa-angle-right"></i></a>
+
+                        <a href="#!infor"
+                            class="list-group-item list-group-item-action dropend-toggle p-3 d-flex justify-content-between align-items-center fw-medium">Personal
+                            Infor
+                            <i class="fa-solid fa-angle-right"></i></a>
+
+                        <a href="#!payment"
+                            class="list-group-item list-group-item-action dropend-toggle p-3 d-flex justify-content-between align-items-center">Payment
+                            Methods
+                            <i class="fa-solid fa-angle-right"></i></a>
+
+
+                        <a href="javascript:void(0)" ng-show="user" ng-click="logout()"
+                            class="list-group-item list-group-item-action dropend-toggle p-3 d-flex justify-content-between align-items-center">Log
+                            out
+                            <i class="fa-solid fa-angle-right"></i></a>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="col-12 col-md-9 col-lg-8 offset-lg-1">
+
+
+                <form ng-submit="updateInfor(user.id)">
+                    <div class="row mb-2">
+                        <!-- First name -->
+                        <div class="col-12 col-md-6">
+                            <div class="form-group">
+                                <label for="checkoutBillingFirstName" class="form-label">First Name
+                                    *</label>
+                                <input type="text" id="checkoutBillingFirstName"
+                                    class="form-control form-control-sm p-3" placeholder="First Name" required 
+                                    ng-model="firstname">
+                                <div class="invalid-feedback fz-sm">Please provide a first name.</div>
+                            </div>
+                        </div>
+                        <!-- Last Name -->
+                        <div class="col-12 col-md-6 mb-3">
+                            <div class="form-group">
+                                <label for="checkoutBillingLastName" class="form-label">Last Name *</label>
+                                <input type="text" id="checkoutBillingLastName" class="form-control form-control-sm p-3"
+                                    placeholder="Last Name" required ng-model="lastname">
+                                <div class="invalid-feedback fz-sm">Please provide a last name.</div>
+                            </div>
+                        </div>
+                        <!-- Email -->
+                        <div class="col-12 mb-3">
+                            <div class="form-group">
+                                <label for="checkoutBillingEmail" class="form-label">Email *</label>
+                                <input type="email" id="checkoutBillingEmail" class="form-control form-control-sm p-3"
+                                    placeholder="Email" required ng-model="email">
+                                <div class="invalid-feedback fz-sm">Please provide a valid email address.</div>
+                            </div>
+                        </div>
+                        <!-- Address -->
+                        <div class="col-12 mb-3">
+                            <div class="form-group">
+                                <label for="checkoutBillingAddress" class="form-label">Address *</label>
+                                <input type="text" id="checkoutBillingAddress" class="form-control form-control-sm p-3"
+                                    placeholder="Address" required ng-model="address">
+                                <div class="invalid-feedback fz-sm">Please provide your address.</div>
+                            </div>
+                        </div>
+
+                        <!-- CITY -->
+                        <div class="col-12 col-md-6 mb-3">
+                            <div class="form-group">
+                                <label for="checkoutBillingCity" class="form-label">Current Password *</label>
+                                <input type="password" id="checkoutBillingCity" class="form-control form-control-sm p-3"
+                                    placeholder="Current Password" required ng-model="user.password">
+                                <div class="invalid-feedback fz-sm">Please provide your Password.</div>
+                            </div>
+                        </div>
+                        <!-- ZIP / Code -->
+                        <div class="col-12 col-md-6">
+                            <div class="form-group">
+                                <label for="checkoutBillingZipCode" class="form-label">New Password
+                                    *</label>
+                                <input type="password" id="checkoutBillingZipCode"
+                                    class="form-control form-control-sm p-3" placeholder="New Password" required
+                                    ng-model="password">
+                                <div class="invalid-feedback fz-sm">Please provide your Password.</div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 mb-3">
+                            <button type="submit" class="btn btn-dark rounded-0">Save Changes</button>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
